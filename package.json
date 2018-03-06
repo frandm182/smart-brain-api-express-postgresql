@@ -17,5 +17,8 @@
   },
   "scripts": {
     "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "8.9.4"
   }
 }

@@ -1,0 +1,3187 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'heroku-cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData heroku-cli
+8 silly fetchNamedPackageData heroku-cli
+9 silly mapToRegistry name heroku-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://intersinopia:4873/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'heroku-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'heroku-cli',
+12 silly mapToRegistry   name: 'heroku-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://intersinopia:4873/heroku-cli
+14 verbose request uri http://intersinopia:4873/heroku-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 14:59:56
+17 verbose request using bearer token for auth
+18 verbose request id 60273a5c07642be3
+19 http request GET http://intersinopia:4873/heroku-cli
+20 http 200 http://intersinopia:4873/heroku-cli
+21 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+21 verbose headers   'content-type': 'application/json; charset=utf-8',
+21 verbose headers   etag: '"3352975faf9d60b0f861da99edfdb5a5"',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+21 verbose headers   date: 'Tue, 06 Mar 2018 14:01:13 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'transfer-encoding': 'chunked' }
+22 silly get cb [ 200,
+22 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+22 silly get     'content-type': 'application/json; charset=utf-8',
+22 silly get     etag: '"3352975faf9d60b0f861da99edfdb5a5"',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+22 silly get     date: 'Tue, 06 Mar 2018 14:01:13 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'transfer-encoding': 'chunked' } ]
+23 verbose get saving heroku-cli to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-cli\.cache.json
+24 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule heroku-cli@6.15.28 checking installable status
+38 silly cache add args [ 'heroku-cli', null ]
+39 verbose cache add spec heroku-cli
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'heroku-cli',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'heroku-cli',
+40 silly cache add   name: 'heroku-cli',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed heroku-cli@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for heroku-cli
+43 info addNameTag [ 'heroku-cli', 'latest' ]
+44 silly mapToRegistry name heroku-cli
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://intersinopia:4873/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'heroku-cli',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'heroku-cli',
+47 silly mapToRegistry   name: 'heroku-cli',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://intersinopia:4873/heroku-cli
+49 verbose addNameTag registry:http://intersinopia:4873/heroku-cli not in flight; fetching
+50 verbose get http://intersinopia:4873/heroku-cli not expired, no request
+51 silly addNameTag next cb for heroku-cli with tag latest
+52 silly addNamed heroku-cli@6.15.28
+53 verbose addNamed "6.15.28" is a plain semver version for heroku-cli
+54 silly mapToRegistry name heroku-cli
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry http://intersinopia:4873/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'heroku-cli',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'heroku-cli',
+57 silly mapToRegistry   name: 'heroku-cli',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri http://intersinopia:4873/heroku-cli
+59 verbose addRemoteTarball http://intersinopia:4873/heroku-cli/-/heroku-cli-6.15.28.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-cli/-/heroku-cli-6.15.28.tgz',
+60 verbose addRemoteTarball   '7766859e89898dc3ba84d8e8291f68024902d2d7' ]
+61 info retry fetch attempt 1 at 14:59:57
+62 info attempt registry request try #1 at 14:59:57
+63 http fetch GET http://intersinopia:4873/heroku-cli/-/heroku-cli-6.15.28.tgz
+64 verbose request using bearer token for auth
+65 http fetch 200 http://intersinopia:4873/heroku-cli/-/heroku-cli-6.15.28.tgz
+66 silly fetchAndShaCheck shasum 7766859e89898dc3ba84d8e8291f68024902d2d7
+67 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-cli\-\heroku-cli-6.15.28.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for heroku-cli@6.15.28
+69 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+70 silly cache afterAdd heroku-cli@6.15.28
+71 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli\6.15.28\package\package.json not in flight; writing
+72 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+73 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli\6.15.28\package\package.json written
+74 silly fetchNamedPackageData @cli-engine/command
+75 silly mapToRegistry name @cli-engine/command
+76 silly mapToRegistry scope (from package name) @cli-engine
+77 verbose mapToRegistry no registry URL found in name for scope @cli-engine
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry http://intersinopia:4873/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: '@cli-engine/command',
+80 silly mapToRegistry   scope: '@cli-engine',
+80 silly mapToRegistry   escapedName: '@cli-engine%2fcommand',
+80 silly mapToRegistry   name: '@cli-engine/command',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag' }
+81 silly mapToRegistry uri http://intersinopia:4873/@cli-engine%2fcommand
+82 silly fetchNamedPackageData @cli-engine/config
+83 silly mapToRegistry name @cli-engine/config
+84 silly mapToRegistry scope (from package name) @cli-engine
+85 verbose mapToRegistry no registry URL found in name for scope @cli-engine
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry http://intersinopia:4873/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: '@cli-engine/config',
+88 silly mapToRegistry   scope: '@cli-engine',
+88 silly mapToRegistry   escapedName: '@cli-engine%2fconfig',
+88 silly mapToRegistry   name: '@cli-engine/config',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri http://intersinopia:4873/@cli-engine%2fconfig
+90 silly fetchNamedPackageData @cli-engine/engine
+91 silly mapToRegistry name @cli-engine/engine
+92 silly mapToRegistry scope (from package name) @cli-engine
+93 verbose mapToRegistry no registry URL found in name for scope @cli-engine
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry http://intersinopia:4873/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: '@cli-engine/engine',
+96 silly mapToRegistry   scope: '@cli-engine',
+96 silly mapToRegistry   escapedName: '@cli-engine%2fengine',
+96 silly mapToRegistry   name: '@cli-engine/engine',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri http://intersinopia:4873/@cli-engine%2fengine
+98 silly fetchNamedPackageData @heroku-cli/color
+99 silly mapToRegistry name @heroku-cli/color
+100 silly mapToRegistry scope (from package name) @heroku-cli
+101 verbose mapToRegistry no registry URL found in name for scope @heroku-cli
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry http://intersinopia:4873/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: '@heroku-cli/color',
+104 silly mapToRegistry   scope: '@heroku-cli',
+104 silly mapToRegistry   escapedName: '@heroku-cli%2fcolor',
+104 silly mapToRegistry   name: '@heroku-cli/color',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri http://intersinopia:4873/@heroku-cli%2fcolor
+106 silly fetchNamedPackageData @heroku-cli/command
+107 silly mapToRegistry name @heroku-cli/command
+108 silly mapToRegistry scope (from package name) @heroku-cli
+109 verbose mapToRegistry no registry URL found in name for scope @heroku-cli
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry http://intersinopia:4873/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: '@heroku-cli/command',
+112 silly mapToRegistry   scope: '@heroku-cli',
+112 silly mapToRegistry   escapedName: '@heroku-cli%2fcommand',
+112 silly mapToRegistry   name: '@heroku-cli/command',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri http://intersinopia:4873/@heroku-cli%2fcommand
+114 silly fetchNamedPackageData @heroku-cli/plugin-git
+115 silly mapToRegistry name @heroku-cli/plugin-git
+116 silly mapToRegistry scope (from package name) @heroku-cli
+117 verbose mapToRegistry no registry URL found in name for scope @heroku-cli
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry http://intersinopia:4873/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: '@heroku-cli/plugin-git',
+120 silly mapToRegistry   scope: '@heroku-cli',
+120 silly mapToRegistry   escapedName: '@heroku-cli%2fplugin-git',
+120 silly mapToRegistry   name: '@heroku-cli/plugin-git',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri http://intersinopia:4873/@heroku-cli%2fplugin-git
+122 silly fetchNamedPackageData @heroku-cli/plugin-pipelines
+123 silly mapToRegistry name @heroku-cli/plugin-pipelines
+124 silly mapToRegistry scope (from package name) @heroku-cli
+125 verbose mapToRegistry no registry URL found in name for scope @heroku-cli
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry http://intersinopia:4873/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: '@heroku-cli/plugin-pipelines',
+128 silly mapToRegistry   scope: '@heroku-cli',
+128 silly mapToRegistry   escapedName: '@heroku-cli%2fplugin-pipelines',
+128 silly mapToRegistry   name: '@heroku-cli/plugin-pipelines',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri http://intersinopia:4873/@heroku-cli%2fplugin-pipelines
+130 silly fetchNamedPackageData @heroku-cli/plugin-run
+131 silly mapToRegistry name @heroku-cli/plugin-run
+132 silly mapToRegistry scope (from package name) @heroku-cli
+133 verbose mapToRegistry no registry URL found in name for scope @heroku-cli
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry http://intersinopia:4873/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: '@heroku-cli/plugin-run',
+136 silly mapToRegistry   scope: '@heroku-cli',
+136 silly mapToRegistry   escapedName: '@heroku-cli%2fplugin-run',
+136 silly mapToRegistry   name: '@heroku-cli/plugin-run',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri http://intersinopia:4873/@heroku-cli%2fplugin-run
+138 silly fetchNamedPackageData cli-flags
+139 silly mapToRegistry name cli-flags
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry http://intersinopia:4873/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'cli-flags',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   escapedName: 'cli-flags',
+142 silly mapToRegistry   name: 'cli-flags',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri http://intersinopia:4873/cli-flags
+144 silly fetchNamedPackageData cli-ux
+145 silly mapToRegistry name cli-ux
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry http://intersinopia:4873/
+148 silly mapToRegistry data Result {
+148 silly mapToRegistry   raw: 'cli-ux',
+148 silly mapToRegistry   scope: null,
+148 silly mapToRegistry   escapedName: 'cli-ux',
+148 silly mapToRegistry   name: 'cli-ux',
+148 silly mapToRegistry   rawSpec: '',
+148 silly mapToRegistry   spec: 'latest',
+148 silly mapToRegistry   type: 'tag' }
+149 silly mapToRegistry uri http://intersinopia:4873/cli-ux
+150 silly fetchNamedPackageData debug
+151 silly mapToRegistry name debug
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry http://intersinopia:4873/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'debug',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   escapedName: 'debug',
+154 silly mapToRegistry   name: 'debug',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri http://intersinopia:4873/debug
+156 silly fetchNamedPackageData execa
+157 silly mapToRegistry name execa
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry http://intersinopia:4873/
+160 silly mapToRegistry data Result {
+160 silly mapToRegistry   raw: 'execa',
+160 silly mapToRegistry   scope: null,
+160 silly mapToRegistry   escapedName: 'execa',
+160 silly mapToRegistry   name: 'execa',
+160 silly mapToRegistry   rawSpec: '',
+160 silly mapToRegistry   spec: 'latest',
+160 silly mapToRegistry   type: 'tag' }
+161 silly mapToRegistry uri http://intersinopia:4873/execa
+162 silly fetchNamedPackageData fs-extra
+163 silly mapToRegistry name fs-extra
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry http://intersinopia:4873/
+166 silly mapToRegistry data Result {
+166 silly mapToRegistry   raw: 'fs-extra',
+166 silly mapToRegistry   scope: null,
+166 silly mapToRegistry   escapedName: 'fs-extra',
+166 silly mapToRegistry   name: 'fs-extra',
+166 silly mapToRegistry   rawSpec: '',
+166 silly mapToRegistry   spec: 'latest',
+166 silly mapToRegistry   type: 'tag' }
+167 silly mapToRegistry uri http://intersinopia:4873/fs-extra
+168 silly fetchNamedPackageData heroku-apps
+169 silly mapToRegistry name heroku-apps
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry http://intersinopia:4873/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: 'heroku-apps',
+172 silly mapToRegistry   scope: null,
+172 silly mapToRegistry   escapedName: 'heroku-apps',
+172 silly mapToRegistry   name: 'heroku-apps',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri http://intersinopia:4873/heroku-apps
+174 silly fetchNamedPackageData heroku-certs
+175 silly mapToRegistry name heroku-certs
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry http://intersinopia:4873/
+178 silly mapToRegistry data Result {
+178 silly mapToRegistry   raw: 'heroku-certs',
+178 silly mapToRegistry   scope: null,
+178 silly mapToRegistry   escapedName: 'heroku-certs',
+178 silly mapToRegistry   name: 'heroku-certs',
+178 silly mapToRegistry   rawSpec: '',
+178 silly mapToRegistry   spec: 'latest',
+178 silly mapToRegistry   type: 'tag' }
+179 silly mapToRegistry uri http://intersinopia:4873/heroku-certs
+180 silly fetchNamedPackageData heroku-ci
+181 silly mapToRegistry name heroku-ci
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry http://intersinopia:4873/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'heroku-ci',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   escapedName: 'heroku-ci',
+184 silly mapToRegistry   name: 'heroku-ci',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri http://intersinopia:4873/heroku-ci
+186 silly fetchNamedPackageData heroku-cli-addons
+187 silly mapToRegistry name heroku-cli-addons
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry http://intersinopia:4873/
+190 silly mapToRegistry data Result {
+190 silly mapToRegistry   raw: 'heroku-cli-addons',
+190 silly mapToRegistry   scope: null,
+190 silly mapToRegistry   escapedName: 'heroku-cli-addons',
+190 silly mapToRegistry   name: 'heroku-cli-addons',
+190 silly mapToRegistry   rawSpec: '',
+190 silly mapToRegistry   spec: 'latest',
+190 silly mapToRegistry   type: 'tag' }
+191 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-addons
+192 silly fetchNamedPackageData heroku-cli-oauth
+193 silly mapToRegistry name heroku-cli-oauth
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry http://intersinopia:4873/
+196 silly mapToRegistry data Result {
+196 silly mapToRegistry   raw: 'heroku-cli-oauth',
+196 silly mapToRegistry   scope: null,
+196 silly mapToRegistry   escapedName: 'heroku-cli-oauth',
+196 silly mapToRegistry   name: 'heroku-cli-oauth',
+196 silly mapToRegistry   rawSpec: '',
+196 silly mapToRegistry   spec: 'latest',
+196 silly mapToRegistry   type: 'tag' }
+197 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-oauth
+198 silly fetchNamedPackageData heroku-cli-status
+199 silly mapToRegistry name heroku-cli-status
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry http://intersinopia:4873/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'heroku-cli-status',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'heroku-cli-status',
+202 silly mapToRegistry   name: 'heroku-cli-status',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-status
+204 silly fetchNamedPackageData heroku-container-registry
+205 silly mapToRegistry name heroku-container-registry
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry http://intersinopia:4873/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'heroku-container-registry',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   escapedName: 'heroku-container-registry',
+208 silly mapToRegistry   name: 'heroku-container-registry',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri http://intersinopia:4873/heroku-container-registry
+210 silly fetchNamedPackageData heroku-local
+211 silly mapToRegistry name heroku-local
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry http://intersinopia:4873/
+214 silly mapToRegistry data Result {
+214 silly mapToRegistry   raw: 'heroku-local',
+214 silly mapToRegistry   scope: null,
+214 silly mapToRegistry   escapedName: 'heroku-local',
+214 silly mapToRegistry   name: 'heroku-local',
+214 silly mapToRegistry   rawSpec: '',
+214 silly mapToRegistry   spec: 'latest',
+214 silly mapToRegistry   type: 'tag' }
+215 silly mapToRegistry uri http://intersinopia:4873/heroku-local
+216 silly fetchNamedPackageData heroku-orgs
+217 silly mapToRegistry name heroku-orgs
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry http://intersinopia:4873/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'heroku-orgs',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   escapedName: 'heroku-orgs',
+220 silly mapToRegistry   name: 'heroku-orgs',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri http://intersinopia:4873/heroku-orgs
+222 silly fetchNamedPackageData heroku-pg
+223 silly mapToRegistry name heroku-pg
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry http://intersinopia:4873/
+226 silly mapToRegistry data Result {
+226 silly mapToRegistry   raw: 'heroku-pg',
+226 silly mapToRegistry   scope: null,
+226 silly mapToRegistry   escapedName: 'heroku-pg',
+226 silly mapToRegistry   name: 'heroku-pg',
+226 silly mapToRegistry   rawSpec: '',
+226 silly mapToRegistry   spec: 'latest',
+226 silly mapToRegistry   type: 'tag' }
+227 silly mapToRegistry uri http://intersinopia:4873/heroku-pg
+228 silly fetchNamedPackageData heroku-ps-exec
+229 silly mapToRegistry name heroku-ps-exec
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry http://intersinopia:4873/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'heroku-ps-exec',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   escapedName: 'heroku-ps-exec',
+232 silly mapToRegistry   name: 'heroku-ps-exec',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri http://intersinopia:4873/heroku-ps-exec
+234 silly fetchNamedPackageData heroku-redis
+235 silly mapToRegistry name heroku-redis
+236 silly mapToRegistry using default registry
+237 silly mapToRegistry registry http://intersinopia:4873/
+238 silly mapToRegistry data Result {
+238 silly mapToRegistry   raw: 'heroku-redis',
+238 silly mapToRegistry   scope: null,
+238 silly mapToRegistry   escapedName: 'heroku-redis',
+238 silly mapToRegistry   name: 'heroku-redis',
+238 silly mapToRegistry   rawSpec: '',
+238 silly mapToRegistry   spec: 'latest',
+238 silly mapToRegistry   type: 'tag' }
+239 silly mapToRegistry uri http://intersinopia:4873/heroku-redis
+240 silly fetchNamedPackageData heroku-spaces
+241 silly mapToRegistry name heroku-spaces
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry http://intersinopia:4873/
+244 silly mapToRegistry data Result {
+244 silly mapToRegistry   raw: 'heroku-spaces',
+244 silly mapToRegistry   scope: null,
+244 silly mapToRegistry   escapedName: 'heroku-spaces',
+244 silly mapToRegistry   name: 'heroku-spaces',
+244 silly mapToRegistry   rawSpec: '',
+244 silly mapToRegistry   spec: 'latest',
+244 silly mapToRegistry   type: 'tag' }
+245 silly mapToRegistry uri http://intersinopia:4873/heroku-spaces
+246 silly fetchNamedPackageData heroku-webhooks
+247 silly mapToRegistry name heroku-webhooks
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry http://intersinopia:4873/
+250 silly mapToRegistry data Result {
+250 silly mapToRegistry   raw: 'heroku-webhooks',
+250 silly mapToRegistry   scope: null,
+250 silly mapToRegistry   escapedName: 'heroku-webhooks',
+250 silly mapToRegistry   name: 'heroku-webhooks',
+250 silly mapToRegistry   rawSpec: '',
+250 silly mapToRegistry   spec: 'latest',
+250 silly mapToRegistry   type: 'tag' }
+251 silly mapToRegistry uri http://intersinopia:4873/heroku-webhooks
+252 silly fetchNamedPackageData http-call
+253 silly mapToRegistry name http-call
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry http://intersinopia:4873/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'http-call',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   escapedName: 'http-call',
+256 silly mapToRegistry   name: 'http-call',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri http://intersinopia:4873/http-call
+258 silly fetchNamedPackageData netrc-parser
+259 silly mapToRegistry name netrc-parser
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry http://intersinopia:4873/
+262 silly mapToRegistry data Result {
+262 silly mapToRegistry   raw: 'netrc-parser',
+262 silly mapToRegistry   scope: null,
+262 silly mapToRegistry   escapedName: 'netrc-parser',
+262 silly mapToRegistry   name: 'netrc-parser',
+262 silly mapToRegistry   rawSpec: '',
+262 silly mapToRegistry   spec: 'latest',
+262 silly mapToRegistry   type: 'tag' }
+263 silly mapToRegistry uri http://intersinopia:4873/netrc-parser
+264 silly fetchNamedPackageData semver
+265 silly mapToRegistry name semver
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry http://intersinopia:4873/
+268 silly mapToRegistry data Result {
+268 silly mapToRegistry   raw: 'semver',
+268 silly mapToRegistry   scope: null,
+268 silly mapToRegistry   escapedName: 'semver',
+268 silly mapToRegistry   name: 'semver',
+268 silly mapToRegistry   rawSpec: '',
+268 silly mapToRegistry   spec: 'latest',
+268 silly mapToRegistry   type: 'tag' }
+269 silly mapToRegistry uri http://intersinopia:4873/semver
+270 silly fetchNamedPackageData tar-fs
+271 silly mapToRegistry name tar-fs
+272 silly mapToRegistry using default registry
+273 silly mapToRegistry registry http://intersinopia:4873/
+274 silly mapToRegistry data Result {
+274 silly mapToRegistry   raw: 'tar-fs',
+274 silly mapToRegistry   scope: null,
+274 silly mapToRegistry   escapedName: 'tar-fs',
+274 silly mapToRegistry   name: 'tar-fs',
+274 silly mapToRegistry   rawSpec: '',
+274 silly mapToRegistry   spec: 'latest',
+274 silly mapToRegistry   type: 'tag' }
+275 silly mapToRegistry uri http://intersinopia:4873/tar-fs
+276 silly fetchNamedPackageData ts-lodash
+277 silly mapToRegistry name ts-lodash
+278 silly mapToRegistry using default registry
+279 silly mapToRegistry registry http://intersinopia:4873/
+280 silly mapToRegistry data Result {
+280 silly mapToRegistry   raw: 'ts-lodash',
+280 silly mapToRegistry   scope: null,
+280 silly mapToRegistry   escapedName: 'ts-lodash',
+280 silly mapToRegistry   name: 'ts-lodash',
+280 silly mapToRegistry   rawSpec: '',
+280 silly mapToRegistry   spec: 'latest',
+280 silly mapToRegistry   type: 'tag' }
+281 silly mapToRegistry uri http://intersinopia:4873/ts-lodash
+282 silly fetchNamedPackageData tslib
+283 silly mapToRegistry name tslib
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry http://intersinopia:4873/
+286 silly mapToRegistry data Result {
+286 silly mapToRegistry   raw: 'tslib',
+286 silly mapToRegistry   scope: null,
+286 silly mapToRegistry   escapedName: 'tslib',
+286 silly mapToRegistry   name: 'tslib',
+286 silly mapToRegistry   rawSpec: '',
+286 silly mapToRegistry   spec: 'latest',
+286 silly mapToRegistry   type: 'tag' }
+287 silly mapToRegistry uri http://intersinopia:4873/tslib
+288 silly fetchNamedPackageData uuid
+289 silly mapToRegistry name uuid
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry http://intersinopia:4873/
+292 silly mapToRegistry data Result {
+292 silly mapToRegistry   raw: 'uuid',
+292 silly mapToRegistry   scope: null,
+292 silly mapToRegistry   escapedName: 'uuid',
+292 silly mapToRegistry   name: 'uuid',
+292 silly mapToRegistry   rawSpec: '',
+292 silly mapToRegistry   spec: 'latest',
+292 silly mapToRegistry   type: 'tag' }
+293 silly mapToRegistry uri http://intersinopia:4873/uuid
+294 verbose request uri http://intersinopia:4873/@cli-engine%2fcommand
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 14:59:57
+297 verbose request using bearer token for auth
+298 http request GET http://intersinopia:4873/@cli-engine%2fcommand
+299 verbose request uri http://intersinopia:4873/@cli-engine%2fconfig
+300 verbose request no auth needed
+301 info attempt registry request try #1 at 14:59:57
+302 verbose request using bearer token for auth
+303 http request GET http://intersinopia:4873/@cli-engine%2fconfig
+304 verbose request uri http://intersinopia:4873/@heroku-cli%2fcolor
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 14:59:57
+307 verbose request using bearer token for auth
+308 http request GET http://intersinopia:4873/@heroku-cli%2fcolor
+309 verbose request uri http://intersinopia:4873/@cli-engine%2fengine
+310 verbose request no auth needed
+311 info attempt registry request try #1 at 14:59:57
+312 verbose request using bearer token for auth
+313 http request GET http://intersinopia:4873/@cli-engine%2fengine
+314 verbose request uri http://intersinopia:4873/@heroku-cli%2fcommand
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 14:59:57
+317 verbose request using bearer token for auth
+318 http request GET http://intersinopia:4873/@heroku-cli%2fcommand
+319 verbose request uri http://intersinopia:4873/@heroku-cli%2fplugin-git
+320 verbose request no auth needed
+321 info attempt registry request try #1 at 14:59:57
+322 verbose request using bearer token for auth
+323 http request GET http://intersinopia:4873/@heroku-cli%2fplugin-git
+324 verbose request uri http://intersinopia:4873/@heroku-cli%2fplugin-pipelines
+325 verbose request no auth needed
+326 info attempt registry request try #1 at 14:59:57
+327 verbose request using bearer token for auth
+328 http request GET http://intersinopia:4873/@heroku-cli%2fplugin-pipelines
+329 verbose request uri http://intersinopia:4873/@heroku-cli%2fplugin-run
+330 verbose request no auth needed
+331 info attempt registry request try #1 at 14:59:57
+332 verbose request using bearer token for auth
+333 http request GET http://intersinopia:4873/@heroku-cli%2fplugin-run
+334 http 404 http://intersinopia:4873/@cli-engine%2fcommand
+335 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+335 verbose headers   'content-type': 'application/json; charset=utf-8',
+335 verbose headers   'content-length': '43',
+335 verbose headers   etag: 'W/"2b-d418f262"',
+335 verbose headers   vary: 'Accept-Encoding',
+335 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+335 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+335 verbose headers   connection: 'keep-alive' }
+336 silly get cb [ 404,
+336 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+336 silly get     'content-type': 'application/json; charset=utf-8',
+336 silly get     'content-length': '43',
+336 silly get     etag: 'W/"2b-d418f262"',
+336 silly get     vary: 'Accept-Encoding',
+336 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+336 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+336 silly get     connection: 'keep-alive' } ]
+337 silly fetchPackageMetaData Error: no such package available : @cli-engine/command
+337 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+337 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+337 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+337 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+337 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+337 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+337 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+337 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+337 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+337 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+337 silly fetchPackageMetaData  error for @cli-engine/command@^12.1.1 { Error: no such package available : @cli-engine/command
+337 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+337 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+337 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+337 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+337 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+337 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+337 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+337 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+337 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+337 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: '@cli-engine/command', statusCode: 404, code: 'E404' }
+338 verbose request uri http://intersinopia:4873/cli-flags
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 14:59:57
+341 verbose request using bearer token for auth
+342 http request GET http://intersinopia:4873/cli-flags
+343 verbose request uri http://intersinopia:4873/cli-ux
+344 verbose request no auth needed
+345 info attempt registry request try #1 at 14:59:57
+346 verbose request using bearer token for auth
+347 http request GET http://intersinopia:4873/cli-ux
+348 verbose request uri http://intersinopia:4873/heroku-apps
+349 verbose request no auth needed
+350 info attempt registry request try #1 at 14:59:57
+351 verbose request using bearer token for auth
+352 http request GET http://intersinopia:4873/heroku-apps
+353 verbose request uri http://intersinopia:4873/heroku-certs
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 14:59:57
+356 verbose request using bearer token for auth
+357 http request GET http://intersinopia:4873/heroku-certs
+358 verbose request uri http://intersinopia:4873/heroku-ci
+359 verbose request no auth needed
+360 info attempt registry request try #1 at 14:59:57
+361 verbose request using bearer token for auth
+362 http request GET http://intersinopia:4873/heroku-ci
+363 verbose request uri http://intersinopia:4873/heroku-cli-addons
+364 verbose request no auth needed
+365 info attempt registry request try #1 at 14:59:57
+366 verbose request using bearer token for auth
+367 http request GET http://intersinopia:4873/heroku-cli-addons
+368 verbose request uri http://intersinopia:4873/heroku-cli-oauth
+369 verbose request no auth needed
+370 info attempt registry request try #1 at 14:59:57
+371 verbose request using bearer token for auth
+372 http request GET http://intersinopia:4873/heroku-cli-oauth
+373 verbose request uri http://intersinopia:4873/heroku-cli-status
+374 verbose request no auth needed
+375 info attempt registry request try #1 at 14:59:57
+376 verbose request using bearer token for auth
+377 http request GET http://intersinopia:4873/heroku-cli-status
+378 verbose request uri http://intersinopia:4873/heroku-container-registry
+379 verbose request no auth needed
+380 info attempt registry request try #1 at 14:59:57
+381 verbose request using bearer token for auth
+382 http request GET http://intersinopia:4873/heroku-container-registry
+383 verbose request uri http://intersinopia:4873/heroku-local
+384 verbose request no auth needed
+385 info attempt registry request try #1 at 14:59:57
+386 verbose request using bearer token for auth
+387 http request GET http://intersinopia:4873/heroku-local
+388 verbose request uri http://intersinopia:4873/heroku-orgs
+389 verbose request no auth needed
+390 info attempt registry request try #1 at 14:59:57
+391 verbose request using bearer token for auth
+392 http request GET http://intersinopia:4873/heroku-orgs
+393 verbose request uri http://intersinopia:4873/heroku-pg
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 14:59:57
+396 verbose request using bearer token for auth
+397 http request GET http://intersinopia:4873/heroku-pg
+398 verbose request uri http://intersinopia:4873/heroku-ps-exec
+399 verbose request no auth needed
+400 info attempt registry request try #1 at 14:59:57
+401 verbose request using bearer token for auth
+402 http request GET http://intersinopia:4873/heroku-ps-exec
+403 verbose request uri http://intersinopia:4873/heroku-redis
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 14:59:57
+406 verbose request using bearer token for auth
+407 http request GET http://intersinopia:4873/heroku-redis
+408 verbose request uri http://intersinopia:4873/heroku-spaces
+409 verbose request no auth needed
+410 info attempt registry request try #1 at 14:59:57
+411 verbose request using bearer token for auth
+412 http request GET http://intersinopia:4873/heroku-spaces
+413 verbose request uri http://intersinopia:4873/heroku-webhooks
+414 verbose request no auth needed
+415 info attempt registry request try #1 at 14:59:57
+416 verbose request using bearer token for auth
+417 http request GET http://intersinopia:4873/heroku-webhooks
+418 verbose request uri http://intersinopia:4873/http-call
+419 verbose request no auth needed
+420 info attempt registry request try #1 at 14:59:57
+421 verbose request using bearer token for auth
+422 http request GET http://intersinopia:4873/http-call
+423 verbose request uri http://intersinopia:4873/netrc-parser
+424 verbose request no auth needed
+425 info attempt registry request try #1 at 14:59:57
+426 verbose request using bearer token for auth
+427 http request GET http://intersinopia:4873/netrc-parser
+428 verbose request uri http://intersinopia:4873/ts-lodash
+429 verbose request no auth needed
+430 info attempt registry request try #1 at 14:59:57
+431 verbose request using bearer token for auth
+432 http request GET http://intersinopia:4873/ts-lodash
+433 verbose request uri http://intersinopia:4873/tslib
+434 verbose request no auth needed
+435 info attempt registry request try #1 at 14:59:57
+436 verbose request using bearer token for auth
+437 http request GET http://intersinopia:4873/tslib
+438 http 404 http://intersinopia:4873/@cli-engine%2fconfig
+439 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+439 verbose headers   'content-type': 'application/json; charset=utf-8',
+439 verbose headers   'content-length': '43',
+439 verbose headers   etag: 'W/"2b-d418f262"',
+439 verbose headers   vary: 'Accept-Encoding',
+439 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+439 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+439 verbose headers   connection: 'keep-alive' }
+440 silly get cb [ 404,
+440 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+440 silly get     'content-type': 'application/json; charset=utf-8',
+440 silly get     'content-length': '43',
+440 silly get     etag: 'W/"2b-d418f262"',
+440 silly get     vary: 'Accept-Encoding',
+440 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+440 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+440 silly get     connection: 'keep-alive' } ]
+441 silly fetchPackageMetaData Error: no such package available : @cli-engine/config
+441 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+441 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+441 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+441 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+441 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+441 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+441 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+441 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+441 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+441 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+441 silly fetchPackageMetaData  error for @cli-engine/config@^5.1.0 { Error: no such package available : @cli-engine/config
+441 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+441 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+441 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+441 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+441 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+441 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+441 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+441 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+441 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+441 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: '@cli-engine/config', statusCode: 404, code: 'E404' }
+442 http 404 http://intersinopia:4873/@heroku-cli%2fcolor
+443 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+443 verbose headers   'content-type': 'application/json; charset=utf-8',
+443 verbose headers   'content-length': '43',
+443 verbose headers   etag: 'W/"2b-d418f262"',
+443 verbose headers   vary: 'Accept-Encoding',
+443 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+443 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+443 verbose headers   connection: 'keep-alive' }
+444 silly get cb [ 404,
+444 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+444 silly get     'content-type': 'application/json; charset=utf-8',
+444 silly get     'content-length': '43',
+444 silly get     etag: 'W/"2b-d418f262"',
+444 silly get     vary: 'Accept-Encoding',
+444 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+444 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+444 silly get     connection: 'keep-alive' } ]
+445 silly fetchPackageMetaData Error: no such package available : @heroku-cli/color
+445 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+445 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+445 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+445 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+445 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+445 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+445 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+445 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+445 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+445 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+445 silly fetchPackageMetaData  error for @heroku-cli/color@^1.1.3 { Error: no such package available : @heroku-cli/color
+445 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+445 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+445 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+445 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+445 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+445 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+445 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+445 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+445 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+445 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: '@heroku-cli/color', statusCode: 404, code: 'E404' }
+446 http 404 http://intersinopia:4873/@cli-engine%2fengine
+447 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+447 verbose headers   'content-type': 'application/json; charset=utf-8',
+447 verbose headers   'content-length': '43',
+447 verbose headers   etag: 'W/"2b-d418f262"',
+447 verbose headers   vary: 'Accept-Encoding',
+447 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+447 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+447 verbose headers   connection: 'keep-alive' }
+448 silly get cb [ 404,
+448 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+448 silly get     'content-type': 'application/json; charset=utf-8',
+448 silly get     'content-length': '43',
+448 silly get     etag: 'W/"2b-d418f262"',
+448 silly get     vary: 'Accept-Encoding',
+448 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+448 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+448 silly get     connection: 'keep-alive' } ]
+449 silly fetchPackageMetaData Error: no such package available : @cli-engine/engine
+449 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+449 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+449 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+449 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+449 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+449 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+449 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+449 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+449 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+449 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+449 silly fetchPackageMetaData  error for @cli-engine/engine@6.2.0 { Error: no such package available : @cli-engine/engine
+449 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+449 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+449 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+449 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+449 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+449 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+449 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+449 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+449 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+449 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: '@cli-engine/engine', statusCode: 404, code: 'E404' }
+450 http 404 http://intersinopia:4873/@heroku-cli%2fcommand
+451 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+451 verbose headers   'content-type': 'application/json; charset=utf-8',
+451 verbose headers   'content-length': '43',
+451 verbose headers   etag: 'W/"2b-d418f262"',
+451 verbose headers   vary: 'Accept-Encoding',
+451 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+451 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+451 verbose headers   connection: 'keep-alive' }
+452 silly get cb [ 404,
+452 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+452 silly get     'content-type': 'application/json; charset=utf-8',
+452 silly get     'content-length': '43',
+452 silly get     etag: 'W/"2b-d418f262"',
+452 silly get     vary: 'Accept-Encoding',
+452 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+452 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+452 silly get     connection: 'keep-alive' } ]
+453 silly fetchPackageMetaData Error: no such package available : @heroku-cli/command
+453 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+453 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+453 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+453 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+453 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+453 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+453 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+453 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+453 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+453 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+453 silly fetchPackageMetaData  error for @heroku-cli/command@^7.0.15 { Error: no such package available : @heroku-cli/command
+453 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+453 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+453 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+453 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+453 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+453 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+453 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+453 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+453 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+453 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: '@heroku-cli/command', statusCode: 404, code: 'E404' }
+454 http 404 http://intersinopia:4873/@heroku-cli%2fplugin-pipelines
+455 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+455 verbose headers   'content-type': 'application/json; charset=utf-8',
+455 verbose headers   'content-length': '43',
+455 verbose headers   etag: 'W/"2b-d418f262"',
+455 verbose headers   vary: 'Accept-Encoding',
+455 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+455 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+455 verbose headers   connection: 'keep-alive' }
+456 silly get cb [ 404,
+456 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+456 silly get     'content-type': 'application/json; charset=utf-8',
+456 silly get     'content-length': '43',
+456 silly get     etag: 'W/"2b-d418f262"',
+456 silly get     vary: 'Accept-Encoding',
+456 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+456 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+456 silly get     connection: 'keep-alive' } ]
+457 silly fetchPackageMetaData Error: no such package available : @heroku-cli/plugin-pipelines
+457 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+457 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+457 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+457 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+457 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+457 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+457 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+457 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+457 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+457 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+457 silly fetchPackageMetaData  error for @heroku-cli/plugin-pipelines@^2.5.2 { Error: no such package available : @heroku-cli/plugin-pipelines
+457 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+457 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+457 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+457 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+457 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+457 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+457 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+457 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+457 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+457 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+457 silly fetchPackageMetaData   pkgid: '@heroku-cli/plugin-pipelines',
+457 silly fetchPackageMetaData   statusCode: 404,
+457 silly fetchPackageMetaData   code: 'E404' }
+458 http 404 http://intersinopia:4873/@heroku-cli%2fplugin-git
+459 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+459 verbose headers   'content-type': 'application/json; charset=utf-8',
+459 verbose headers   'content-length': '43',
+459 verbose headers   etag: 'W/"2b-d418f262"',
+459 verbose headers   vary: 'Accept-Encoding',
+459 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+459 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+459 verbose headers   connection: 'keep-alive' }
+460 silly get cb [ 404,
+460 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+460 silly get     'content-type': 'application/json; charset=utf-8',
+460 silly get     'content-length': '43',
+460 silly get     etag: 'W/"2b-d418f262"',
+460 silly get     vary: 'Accept-Encoding',
+460 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+460 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+460 silly get     connection: 'keep-alive' } ]
+461 silly fetchPackageMetaData Error: no such package available : @heroku-cli/plugin-git
+461 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+461 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+461 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+461 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+461 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+461 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+461 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+461 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+461 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+461 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+461 silly fetchPackageMetaData  error for @heroku-cli/plugin-git@^2.5.28 { Error: no such package available : @heroku-cli/plugin-git
+461 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+461 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+461 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+461 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+461 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+461 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+461 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+461 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+461 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+461 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+461 silly fetchPackageMetaData   pkgid: '@heroku-cli/plugin-git',
+461 silly fetchPackageMetaData   statusCode: 404,
+461 silly fetchPackageMetaData   code: 'E404' }
+462 http 404 http://intersinopia:4873/@heroku-cli%2fplugin-run
+463 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+463 verbose headers   'content-type': 'application/json; charset=utf-8',
+463 verbose headers   'content-length': '43',
+463 verbose headers   etag: 'W/"2b-d418f262"',
+463 verbose headers   vary: 'Accept-Encoding',
+463 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+463 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+463 verbose headers   connection: 'keep-alive' }
+464 silly get cb [ 404,
+464 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+464 silly get     'content-type': 'application/json; charset=utf-8',
+464 silly get     'content-length': '43',
+464 silly get     etag: 'W/"2b-d418f262"',
+464 silly get     vary: 'Accept-Encoding',
+464 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+464 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+464 silly get     connection: 'keep-alive' } ]
+465 silly fetchPackageMetaData Error: no such package available : @heroku-cli/plugin-run
+465 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+465 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+465 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+465 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+465 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+465 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+465 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+465 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+465 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+465 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+465 silly fetchPackageMetaData  error for @heroku-cli/plugin-run@^3.5.14 { Error: no such package available : @heroku-cli/plugin-run
+465 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+465 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+465 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+465 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+465 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+465 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+465 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+465 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+465 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+465 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+465 silly fetchPackageMetaData   pkgid: '@heroku-cli/plugin-run',
+465 silly fetchPackageMetaData   statusCode: 404,
+465 silly fetchPackageMetaData   code: 'E404' }
+466 verbose request uri http://intersinopia:4873/fs-extra
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 14:59:57
+469 verbose request using bearer token for auth
+470 verbose etag "4a02bfc7339b4ebdd3edf9a3e304ec3c"
+471 http request GET http://intersinopia:4873/fs-extra
+472 verbose request uri http://intersinopia:4873/execa
+473 verbose request no auth needed
+474 info attempt registry request try #1 at 14:59:57
+475 verbose request using bearer token for auth
+476 verbose etag "90423ba9a2d46f9b47bc6c3505234ee6"
+477 http request GET http://intersinopia:4873/execa
+478 verbose request uri http://intersinopia:4873/debug
+479 verbose request no auth needed
+480 info attempt registry request try #1 at 14:59:57
+481 verbose request using bearer token for auth
+482 verbose etag "e43217586c04c862936197cdb2474042"
+483 http request GET http://intersinopia:4873/debug
+484 verbose request uri http://intersinopia:4873/tar-fs
+485 verbose request no auth needed
+486 info attempt registry request try #1 at 14:59:57
+487 verbose request using bearer token for auth
+488 verbose etag "bf50d6e893c37428ff16c3014634eb40"
+489 http request GET http://intersinopia:4873/tar-fs
+490 verbose request uri http://intersinopia:4873/semver
+491 verbose request no auth needed
+492 info attempt registry request try #1 at 14:59:57
+493 verbose request using bearer token for auth
+494 verbose etag "ba1746a7d3a51df43e28f8dc226d60d3"
+495 http request GET http://intersinopia:4873/semver
+496 verbose request uri http://intersinopia:4873/uuid
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 14:59:57
+499 verbose request using bearer token for auth
+500 verbose etag "605160f42d9227b93b0ff2aac61169d9"
+501 http request GET http://intersinopia:4873/uuid
+502 http 200 http://intersinopia:4873/cli-flags
+503 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+503 verbose headers   'content-type': 'application/json; charset=utf-8',
+503 verbose headers   etag: '"613e9bf4deb31c7dbd0f405e9a63892a"',
+503 verbose headers   vary: 'Accept-Encoding',
+503 verbose headers   'content-encoding': 'gzip',
+503 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+503 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+503 verbose headers   connection: 'keep-alive',
+503 verbose headers   'transfer-encoding': 'chunked' }
+504 silly get cb [ 200,
+504 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+504 silly get     'content-type': 'application/json; charset=utf-8',
+504 silly get     etag: '"613e9bf4deb31c7dbd0f405e9a63892a"',
+504 silly get     vary: 'Accept-Encoding',
+504 silly get     'content-encoding': 'gzip',
+504 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+504 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+504 silly get     connection: 'keep-alive',
+504 silly get     'transfer-encoding': 'chunked' } ]
+505 verbose get saving cli-flags to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\cli-flags\.cache.json
+506 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+507 silly resolveWithNewModule cli-flags@2.0.7 checking installable status
+508 silly cache add args [ 'cli-flags@^2.0.7', null ]
+509 verbose cache add spec cli-flags@^2.0.7
+510 silly cache add parsed spec Result {
+510 silly cache add   raw: 'cli-flags@^2.0.7',
+510 silly cache add   scope: null,
+510 silly cache add   escapedName: 'cli-flags',
+510 silly cache add   name: 'cli-flags',
+510 silly cache add   rawSpec: '^2.0.7',
+510 silly cache add   spec: '>=2.0.7 <3.0.0',
+510 silly cache add   type: 'range' }
+511 silly addNamed cli-flags@>=2.0.7 <3.0.0
+512 verbose addNamed ">=2.0.7 <3.0.0" is a valid semver range for cli-flags
+513 silly addNameRange { name: 'cli-flags', range: '>=2.0.7 <3.0.0', hasData: false }
+514 silly mapToRegistry name cli-flags
+515 silly mapToRegistry using default registry
+516 silly mapToRegistry registry http://intersinopia:4873/
+517 silly mapToRegistry data Result {
+517 silly mapToRegistry   raw: 'cli-flags',
+517 silly mapToRegistry   scope: null,
+517 silly mapToRegistry   escapedName: 'cli-flags',
+517 silly mapToRegistry   name: 'cli-flags',
+517 silly mapToRegistry   rawSpec: '',
+517 silly mapToRegistry   spec: 'latest',
+517 silly mapToRegistry   type: 'tag' }
+518 silly mapToRegistry uri http://intersinopia:4873/cli-flags
+519 verbose addNameRange registry:http://intersinopia:4873/cli-flags not in flight; fetching
+520 verbose get http://intersinopia:4873/cli-flags not expired, no request
+521 silly addNameRange number 2 { name: 'cli-flags', range: '>=2.0.7 <3.0.0', hasData: true }
+522 silly addNameRange versions [ 'cli-flags',
+522 silly addNameRange   [ '1.0.0',
+522 silly addNameRange     '1.0.1',
+522 silly addNameRange     '1.0.2',
+522 silly addNameRange     '1.0.3',
+522 silly addNameRange     '1.0.4',
+522 silly addNameRange     '1.0.5',
+522 silly addNameRange     '1.0.6',
+522 silly addNameRange     '1.0.7',
+522 silly addNameRange     '1.0.8',
+522 silly addNameRange     '1.0.9',
+522 silly addNameRange     '1.0.10',
+522 silly addNameRange     '1.0.11',
+522 silly addNameRange     '1.0.12',
+522 silly addNameRange     '1.0.13',
+522 silly addNameRange     '1.0.14',
+522 silly addNameRange     '1.0.15',
+522 silly addNameRange     '1.0.16',
+522 silly addNameRange     '1.0.17',
+522 silly addNameRange     '1.0.18',
+522 silly addNameRange     '1.0.19',
+522 silly addNameRange     '2.0.0',
+522 silly addNameRange     '2.0.1',
+522 silly addNameRange     '2.0.2',
+522 silly addNameRange     '2.0.3',
+522 silly addNameRange     '2.0.4',
+522 silly addNameRange     '2.0.5',
+522 silly addNameRange     '2.0.6',
+522 silly addNameRange     '2.0.7' ] ]
+523 silly addNamed cli-flags@2.0.7
+524 verbose addNamed "2.0.7" is a plain semver version for cli-flags
+525 silly mapToRegistry name cli-flags
+526 silly mapToRegistry using default registry
+527 silly mapToRegistry registry http://intersinopia:4873/
+528 silly mapToRegistry data Result {
+528 silly mapToRegistry   raw: 'cli-flags',
+528 silly mapToRegistry   scope: null,
+528 silly mapToRegistry   escapedName: 'cli-flags',
+528 silly mapToRegistry   name: 'cli-flags',
+528 silly mapToRegistry   rawSpec: '',
+528 silly mapToRegistry   spec: 'latest',
+528 silly mapToRegistry   type: 'tag' }
+529 silly mapToRegistry uri http://intersinopia:4873/cli-flags
+530 verbose addRemoteTarball http://intersinopia:4873/cli-flags/-/cli-flags-2.0.7.tgz not in flight; adding
+531 verbose addRemoteTarball [ 'http://intersinopia:4873/cli-flags/-/cli-flags-2.0.7.tgz',
+531 verbose addRemoteTarball   '215b3f8d911142c3e4833eaf7f2f96ab97fd22cf' ]
+532 info retry fetch attempt 1 at 14:59:57
+533 info attempt registry request try #1 at 14:59:57
+534 http fetch GET http://intersinopia:4873/cli-flags/-/cli-flags-2.0.7.tgz
+535 verbose request using bearer token for auth
+536 http 200 http://intersinopia:4873/heroku-cli-addons
+537 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+537 verbose headers   'content-type': 'application/json; charset=utf-8',
+537 verbose headers   etag: '"c3fca79db2353fd753734cc4a46b968d"',
+537 verbose headers   vary: 'Accept-Encoding',
+537 verbose headers   'content-encoding': 'gzip',
+537 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+537 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+537 verbose headers   connection: 'keep-alive',
+537 verbose headers   'transfer-encoding': 'chunked' }
+538 silly get cb [ 200,
+538 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+538 silly get     'content-type': 'application/json; charset=utf-8',
+538 silly get     etag: '"c3fca79db2353fd753734cc4a46b968d"',
+538 silly get     vary: 'Accept-Encoding',
+538 silly get     'content-encoding': 'gzip',
+538 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+538 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+538 silly get     connection: 'keep-alive',
+538 silly get     'transfer-encoding': 'chunked' } ]
+539 verbose get saving heroku-cli-addons to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-cli-addons\.cache.json
+540 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+541 silly resolveWithNewModule heroku-cli-addons@1.2.26 checking installable status
+542 silly cache add args [ 'heroku-cli-addons@1.2.26', null ]
+543 verbose cache add spec heroku-cli-addons@1.2.26
+544 silly cache add parsed spec Result {
+544 silly cache add   raw: 'heroku-cli-addons@1.2.26',
+544 silly cache add   scope: null,
+544 silly cache add   escapedName: 'heroku-cli-addons',
+544 silly cache add   name: 'heroku-cli-addons',
+544 silly cache add   rawSpec: '1.2.26',
+544 silly cache add   spec: '1.2.26',
+544 silly cache add   type: 'version' }
+545 silly addNamed heroku-cli-addons@1.2.26
+546 verbose addNamed "1.2.26" is a plain semver version for heroku-cli-addons
+547 silly mapToRegistry name heroku-cli-addons
+548 silly mapToRegistry using default registry
+549 silly mapToRegistry registry http://intersinopia:4873/
+550 silly mapToRegistry data Result {
+550 silly mapToRegistry   raw: 'heroku-cli-addons',
+550 silly mapToRegistry   scope: null,
+550 silly mapToRegistry   escapedName: 'heroku-cli-addons',
+550 silly mapToRegistry   name: 'heroku-cli-addons',
+550 silly mapToRegistry   rawSpec: '',
+550 silly mapToRegistry   spec: 'latest',
+550 silly mapToRegistry   type: 'tag' }
+551 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-addons
+552 verbose addNameVersion registry:http://intersinopia:4873/heroku-cli-addons not in flight; fetching
+553 verbose get http://intersinopia:4873/heroku-cli-addons not expired, no request
+554 silly mapToRegistry name heroku-cli-addons
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry http://intersinopia:4873/
+557 silly mapToRegistry data Result {
+557 silly mapToRegistry   raw: 'heroku-cli-addons',
+557 silly mapToRegistry   scope: null,
+557 silly mapToRegistry   escapedName: 'heroku-cli-addons',
+557 silly mapToRegistry   name: 'heroku-cli-addons',
+557 silly mapToRegistry   rawSpec: '',
+557 silly mapToRegistry   spec: 'latest',
+557 silly mapToRegistry   type: 'tag' }
+558 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-addons
+559 verbose addRemoteTarball http://intersinopia:4873/heroku-cli-addons/-/heroku-cli-addons-1.2.26.tgz not in flight; adding
+560 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-cli-addons/-/heroku-cli-addons-1.2.26.tgz',
+560 verbose addRemoteTarball   '17131b4c5a1906e79de16cf9cac6910ab8e43c4a' ]
+561 info retry fetch attempt 1 at 14:59:57
+562 info attempt registry request try #1 at 14:59:57
+563 http fetch GET http://intersinopia:4873/heroku-cli-addons/-/heroku-cli-addons-1.2.26.tgz
+564 verbose request using bearer token for auth
+565 http 200 http://intersinopia:4873/heroku-certs
+566 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+566 verbose headers   'content-type': 'application/json; charset=utf-8',
+566 verbose headers   etag: '"7428b6e3f8610e6d06793838b5256817"',
+566 verbose headers   vary: 'Accept-Encoding',
+566 verbose headers   'content-encoding': 'gzip',
+566 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+566 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+566 verbose headers   connection: 'keep-alive',
+566 verbose headers   'transfer-encoding': 'chunked' }
+567 silly get cb [ 200,
+567 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+567 silly get     'content-type': 'application/json; charset=utf-8',
+567 silly get     etag: '"7428b6e3f8610e6d06793838b5256817"',
+567 silly get     vary: 'Accept-Encoding',
+567 silly get     'content-encoding': 'gzip',
+567 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+567 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+567 silly get     connection: 'keep-alive',
+567 silly get     'transfer-encoding': 'chunked' } ]
+568 verbose get saving heroku-certs to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-certs\.cache.json
+569 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+570 http 200 http://intersinopia:4873/heroku-cli-status
+571 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+571 verbose headers   'content-type': 'application/json; charset=utf-8',
+571 verbose headers   etag: '"192ba38fbc14a58d6fda01468796e931"',
+571 verbose headers   vary: 'Accept-Encoding',
+571 verbose headers   'content-encoding': 'gzip',
+571 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+571 verbose headers   date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+571 verbose headers   connection: 'keep-alive',
+571 verbose headers   'transfer-encoding': 'chunked' }
+572 silly get cb [ 200,
+572 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+572 silly get     'content-type': 'application/json; charset=utf-8',
+572 silly get     etag: '"192ba38fbc14a58d6fda01468796e931"',
+572 silly get     vary: 'Accept-Encoding',
+572 silly get     'content-encoding': 'gzip',
+572 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+572 silly get     date: 'Tue, 06 Mar 2018 14:01:14 GMT',
+572 silly get     connection: 'keep-alive',
+572 silly get     'transfer-encoding': 'chunked' } ]
+573 verbose get saving heroku-cli-status to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-cli-status\.cache.json
+574 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+575 silly resolveWithNewModule heroku-certs@1.1.45 checking installable status
+576 silly cache add args [ 'heroku-certs@1.1.45', null ]
+577 verbose cache add spec heroku-certs@1.1.45
+578 silly cache add parsed spec Result {
+578 silly cache add   raw: 'heroku-certs@1.1.45',
+578 silly cache add   scope: null,
+578 silly cache add   escapedName: 'heroku-certs',
+578 silly cache add   name: 'heroku-certs',
+578 silly cache add   rawSpec: '1.1.45',
+578 silly cache add   spec: '1.1.45',
+578 silly cache add   type: 'version' }
+579 silly addNamed heroku-certs@1.1.45
+580 verbose addNamed "1.1.45" is a plain semver version for heroku-certs
+581 silly mapToRegistry name heroku-certs
+582 silly mapToRegistry using default registry
+583 silly mapToRegistry registry http://intersinopia:4873/
+584 silly mapToRegistry data Result {
+584 silly mapToRegistry   raw: 'heroku-certs',
+584 silly mapToRegistry   scope: null,
+584 silly mapToRegistry   escapedName: 'heroku-certs',
+584 silly mapToRegistry   name: 'heroku-certs',
+584 silly mapToRegistry   rawSpec: '',
+584 silly mapToRegistry   spec: 'latest',
+584 silly mapToRegistry   type: 'tag' }
+585 silly mapToRegistry uri http://intersinopia:4873/heroku-certs
+586 verbose addNameVersion registry:http://intersinopia:4873/heroku-certs not in flight; fetching
+587 verbose get http://intersinopia:4873/heroku-certs not expired, no request
+588 silly mapToRegistry name heroku-certs
+589 silly mapToRegistry using default registry
+590 silly mapToRegistry registry http://intersinopia:4873/
+591 silly mapToRegistry data Result {
+591 silly mapToRegistry   raw: 'heroku-certs',
+591 silly mapToRegistry   scope: null,
+591 silly mapToRegistry   escapedName: 'heroku-certs',
+591 silly mapToRegistry   name: 'heroku-certs',
+591 silly mapToRegistry   rawSpec: '',
+591 silly mapToRegistry   spec: 'latest',
+591 silly mapToRegistry   type: 'tag' }
+592 silly mapToRegistry uri http://intersinopia:4873/heroku-certs
+593 verbose addRemoteTarball http://intersinopia:4873/heroku-certs/-/heroku-certs-1.1.45.tgz not in flight; adding
+594 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-certs/-/heroku-certs-1.1.45.tgz',
+594 verbose addRemoteTarball   'f11c1d404e0863b532119802e9dd887c54dd9af4' ]
+595 silly resolveWithNewModule heroku-cli-status@5.0.0 checking installable status
+596 silly cache add args [ 'heroku-cli-status@5.0.0', null ]
+597 verbose cache add spec heroku-cli-status@5.0.0
+598 silly cache add parsed spec Result {
+598 silly cache add   raw: 'heroku-cli-status@5.0.0',
+598 silly cache add   scope: null,
+598 silly cache add   escapedName: 'heroku-cli-status',
+598 silly cache add   name: 'heroku-cli-status',
+598 silly cache add   rawSpec: '5.0.0',
+598 silly cache add   spec: '5.0.0',
+598 silly cache add   type: 'version' }
+599 silly addNamed heroku-cli-status@5.0.0
+600 verbose addNamed "5.0.0" is a plain semver version for heroku-cli-status
+601 silly mapToRegistry name heroku-cli-status
+602 silly mapToRegistry using default registry
+603 silly mapToRegistry registry http://intersinopia:4873/
+604 silly mapToRegistry data Result {
+604 silly mapToRegistry   raw: 'heroku-cli-status',
+604 silly mapToRegistry   scope: null,
+604 silly mapToRegistry   escapedName: 'heroku-cli-status',
+604 silly mapToRegistry   name: 'heroku-cli-status',
+604 silly mapToRegistry   rawSpec: '',
+604 silly mapToRegistry   spec: 'latest',
+604 silly mapToRegistry   type: 'tag' }
+605 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-status
+606 verbose addNameVersion registry:http://intersinopia:4873/heroku-cli-status not in flight; fetching
+607 verbose get http://intersinopia:4873/heroku-cli-status not expired, no request
+608 silly mapToRegistry name heroku-cli-status
+609 silly mapToRegistry using default registry
+610 silly mapToRegistry registry http://intersinopia:4873/
+611 silly mapToRegistry data Result {
+611 silly mapToRegistry   raw: 'heroku-cli-status',
+611 silly mapToRegistry   scope: null,
+611 silly mapToRegistry   escapedName: 'heroku-cli-status',
+611 silly mapToRegistry   name: 'heroku-cli-status',
+611 silly mapToRegistry   rawSpec: '',
+611 silly mapToRegistry   spec: 'latest',
+611 silly mapToRegistry   type: 'tag' }
+612 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-status
+613 verbose addRemoteTarball http://intersinopia:4873/heroku-cli-status/-/heroku-cli-status-5.0.0.tgz not in flight; adding
+614 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-cli-status/-/heroku-cli-status-5.0.0.tgz',
+614 verbose addRemoteTarball   '1d99f7efc2775d9da7a0e983e7abb7e2e8f38e11' ]
+615 info retry fetch attempt 1 at 14:59:58
+616 info attempt registry request try #1 at 14:59:58
+617 http fetch GET http://intersinopia:4873/heroku-certs/-/heroku-certs-1.1.45.tgz
+618 verbose request using bearer token for auth
+619 info retry fetch attempt 1 at 14:59:58
+620 info attempt registry request try #1 at 14:59:58
+621 http fetch GET http://intersinopia:4873/heroku-cli-status/-/heroku-cli-status-5.0.0.tgz
+622 verbose request using bearer token for auth
+623 http 200 http://intersinopia:4873/heroku-container-registry
+624 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+624 verbose headers   'content-type': 'application/json; charset=utf-8',
+624 verbose headers   etag: '"289316c8c099fa21bff7e9dffc2e5685"',
+624 verbose headers   vary: 'Accept-Encoding',
+624 verbose headers   'content-encoding': 'gzip',
+624 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+624 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+624 verbose headers   connection: 'keep-alive',
+624 verbose headers   'transfer-encoding': 'chunked' }
+625 silly get cb [ 200,
+625 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+625 silly get     'content-type': 'application/json; charset=utf-8',
+625 silly get     etag: '"289316c8c099fa21bff7e9dffc2e5685"',
+625 silly get     vary: 'Accept-Encoding',
+625 silly get     'content-encoding': 'gzip',
+625 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+625 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+625 silly get     connection: 'keep-alive',
+625 silly get     'transfer-encoding': 'chunked' } ]
+626 verbose get saving heroku-container-registry to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-container-registry\.cache.json
+627 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+628 http 200 http://intersinopia:4873/heroku-apps
+629 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+629 verbose headers   'content-type': 'application/json; charset=utf-8',
+629 verbose headers   etag: '"aa8e2f1aadec04f1eaef5c7e75b71f95"',
+629 verbose headers   vary: 'Accept-Encoding',
+629 verbose headers   'content-encoding': 'gzip',
+629 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+629 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+629 verbose headers   connection: 'keep-alive',
+629 verbose headers   'transfer-encoding': 'chunked' }
+630 silly get cb [ 200,
+630 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+630 silly get     'content-type': 'application/json; charset=utf-8',
+630 silly get     etag: '"aa8e2f1aadec04f1eaef5c7e75b71f95"',
+630 silly get     vary: 'Accept-Encoding',
+630 silly get     'content-encoding': 'gzip',
+630 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+630 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+630 silly get     connection: 'keep-alive',
+630 silly get     'transfer-encoding': 'chunked' } ]
+631 verbose get saving heroku-apps to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-apps\.cache.json
+632 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+633 silly resolveWithNewModule heroku-container-registry@4.4.7 checking installable status
+634 silly cache add args [ 'heroku-container-registry@4.4.7', null ]
+635 verbose cache add spec heroku-container-registry@4.4.7
+636 silly cache add parsed spec Result {
+636 silly cache add   raw: 'heroku-container-registry@4.4.7',
+636 silly cache add   scope: null,
+636 silly cache add   escapedName: 'heroku-container-registry',
+636 silly cache add   name: 'heroku-container-registry',
+636 silly cache add   rawSpec: '4.4.7',
+636 silly cache add   spec: '4.4.7',
+636 silly cache add   type: 'version' }
+637 silly addNamed heroku-container-registry@4.4.7
+638 verbose addNamed "4.4.7" is a plain semver version for heroku-container-registry
+639 silly mapToRegistry name heroku-container-registry
+640 silly mapToRegistry using default registry
+641 silly mapToRegistry registry http://intersinopia:4873/
+642 silly mapToRegistry data Result {
+642 silly mapToRegistry   raw: 'heroku-container-registry',
+642 silly mapToRegistry   scope: null,
+642 silly mapToRegistry   escapedName: 'heroku-container-registry',
+642 silly mapToRegistry   name: 'heroku-container-registry',
+642 silly mapToRegistry   rawSpec: '',
+642 silly mapToRegistry   spec: 'latest',
+642 silly mapToRegistry   type: 'tag' }
+643 silly mapToRegistry uri http://intersinopia:4873/heroku-container-registry
+644 verbose addNameVersion registry:http://intersinopia:4873/heroku-container-registry not in flight; fetching
+645 verbose get http://intersinopia:4873/heroku-container-registry not expired, no request
+646 silly mapToRegistry name heroku-container-registry
+647 silly mapToRegistry using default registry
+648 silly mapToRegistry registry http://intersinopia:4873/
+649 silly mapToRegistry data Result {
+649 silly mapToRegistry   raw: 'heroku-container-registry',
+649 silly mapToRegistry   scope: null,
+649 silly mapToRegistry   escapedName: 'heroku-container-registry',
+649 silly mapToRegistry   name: 'heroku-container-registry',
+649 silly mapToRegistry   rawSpec: '',
+649 silly mapToRegistry   spec: 'latest',
+649 silly mapToRegistry   type: 'tag' }
+650 silly mapToRegistry uri http://intersinopia:4873/heroku-container-registry
+651 verbose addRemoteTarball http://intersinopia:4873/heroku-container-registry/-/heroku-container-registry-4.4.7.tgz not in flight; adding
+652 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-container-registry/-/heroku-container-registry-4.4.7.tgz',
+652 verbose addRemoteTarball   'a97ca242b0d5fdd98b497eedfb7e612324a64256' ]
+653 info retry fetch attempt 1 at 14:59:58
+654 info attempt registry request try #1 at 14:59:58
+655 http fetch GET http://intersinopia:4873/heroku-container-registry/-/heroku-container-registry-4.4.7.tgz
+656 verbose request using bearer token for auth
+657 silly resolveWithNewModule heroku-apps@2.4.22 checking installable status
+658 silly cache add args [ 'heroku-apps@2.4.22', null ]
+659 verbose cache add spec heroku-apps@2.4.22
+660 silly cache add parsed spec Result {
+660 silly cache add   raw: 'heroku-apps@2.4.22',
+660 silly cache add   scope: null,
+660 silly cache add   escapedName: 'heroku-apps',
+660 silly cache add   name: 'heroku-apps',
+660 silly cache add   rawSpec: '2.4.22',
+660 silly cache add   spec: '2.4.22',
+660 silly cache add   type: 'version' }
+661 silly addNamed heroku-apps@2.4.22
+662 verbose addNamed "2.4.22" is a plain semver version for heroku-apps
+663 silly mapToRegistry name heroku-apps
+664 silly mapToRegistry using default registry
+665 silly mapToRegistry registry http://intersinopia:4873/
+666 silly mapToRegistry data Result {
+666 silly mapToRegistry   raw: 'heroku-apps',
+666 silly mapToRegistry   scope: null,
+666 silly mapToRegistry   escapedName: 'heroku-apps',
+666 silly mapToRegistry   name: 'heroku-apps',
+666 silly mapToRegistry   rawSpec: '',
+666 silly mapToRegistry   spec: 'latest',
+666 silly mapToRegistry   type: 'tag' }
+667 silly mapToRegistry uri http://intersinopia:4873/heroku-apps
+668 verbose addNameVersion registry:http://intersinopia:4873/heroku-apps not in flight; fetching
+669 verbose get http://intersinopia:4873/heroku-apps not expired, no request
+670 silly mapToRegistry name heroku-apps
+671 silly mapToRegistry using default registry
+672 silly mapToRegistry registry http://intersinopia:4873/
+673 silly mapToRegistry data Result {
+673 silly mapToRegistry   raw: 'heroku-apps',
+673 silly mapToRegistry   scope: null,
+673 silly mapToRegistry   escapedName: 'heroku-apps',
+673 silly mapToRegistry   name: 'heroku-apps',
+673 silly mapToRegistry   rawSpec: '',
+673 silly mapToRegistry   spec: 'latest',
+673 silly mapToRegistry   type: 'tag' }
+674 silly mapToRegistry uri http://intersinopia:4873/heroku-apps
+675 verbose addRemoteTarball http://intersinopia:4873/heroku-apps/-/heroku-apps-2.4.22.tgz not in flight; adding
+676 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-apps/-/heroku-apps-2.4.22.tgz',
+676 verbose addRemoteTarball   'ed2663c6d526413180e1c3e96fb607948ca0807a' ]
+677 info retry fetch attempt 1 at 14:59:58
+678 info attempt registry request try #1 at 14:59:58
+679 http fetch GET http://intersinopia:4873/heroku-apps/-/heroku-apps-2.4.22.tgz
+680 verbose request using bearer token for auth
+681 http 200 http://intersinopia:4873/heroku-local
+682 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+682 verbose headers   'content-type': 'application/json; charset=utf-8',
+682 verbose headers   etag: '"bd65d5206ca69f5ac81c0b9e7e8038ce"',
+682 verbose headers   vary: 'Accept-Encoding',
+682 verbose headers   'content-encoding': 'gzip',
+682 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+682 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+682 verbose headers   connection: 'keep-alive',
+682 verbose headers   'transfer-encoding': 'chunked' }
+683 silly get cb [ 200,
+683 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+683 silly get     'content-type': 'application/json; charset=utf-8',
+683 silly get     etag: '"bd65d5206ca69f5ac81c0b9e7e8038ce"',
+683 silly get     vary: 'Accept-Encoding',
+683 silly get     'content-encoding': 'gzip',
+683 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+683 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+683 silly get     connection: 'keep-alive',
+683 silly get     'transfer-encoding': 'chunked' } ]
+684 verbose get saving heroku-local to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-local\.cache.json
+685 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+686 silly resolveWithNewModule heroku-local@5.1.21 checking installable status
+687 silly cache add args [ 'heroku-local@5.1.21', null ]
+688 verbose cache add spec heroku-local@5.1.21
+689 silly cache add parsed spec Result {
+689 silly cache add   raw: 'heroku-local@5.1.21',
+689 silly cache add   scope: null,
+689 silly cache add   escapedName: 'heroku-local',
+689 silly cache add   name: 'heroku-local',
+689 silly cache add   rawSpec: '5.1.21',
+689 silly cache add   spec: '5.1.21',
+689 silly cache add   type: 'version' }
+690 silly addNamed heroku-local@5.1.21
+691 verbose addNamed "5.1.21" is a plain semver version for heroku-local
+692 silly mapToRegistry name heroku-local
+693 silly mapToRegistry using default registry
+694 silly mapToRegistry registry http://intersinopia:4873/
+695 silly mapToRegistry data Result {
+695 silly mapToRegistry   raw: 'heroku-local',
+695 silly mapToRegistry   scope: null,
+695 silly mapToRegistry   escapedName: 'heroku-local',
+695 silly mapToRegistry   name: 'heroku-local',
+695 silly mapToRegistry   rawSpec: '',
+695 silly mapToRegistry   spec: 'latest',
+695 silly mapToRegistry   type: 'tag' }
+696 silly mapToRegistry uri http://intersinopia:4873/heroku-local
+697 verbose addNameVersion registry:http://intersinopia:4873/heroku-local not in flight; fetching
+698 verbose get http://intersinopia:4873/heroku-local not expired, no request
+699 silly mapToRegistry name heroku-local
+700 silly mapToRegistry using default registry
+701 silly mapToRegistry registry http://intersinopia:4873/
+702 silly mapToRegistry data Result {
+702 silly mapToRegistry   raw: 'heroku-local',
+702 silly mapToRegistry   scope: null,
+702 silly mapToRegistry   escapedName: 'heroku-local',
+702 silly mapToRegistry   name: 'heroku-local',
+702 silly mapToRegistry   rawSpec: '',
+702 silly mapToRegistry   spec: 'latest',
+702 silly mapToRegistry   type: 'tag' }
+703 silly mapToRegistry uri http://intersinopia:4873/heroku-local
+704 verbose addRemoteTarball http://intersinopia:4873/heroku-local/-/heroku-local-5.1.21.tgz not in flight; adding
+705 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-local/-/heroku-local-5.1.21.tgz',
+705 verbose addRemoteTarball   'de7f366baf450a54651c2761f74df1ee2df460c5' ]
+706 http 200 http://intersinopia:4873/heroku-cli-oauth
+707 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+707 verbose headers   'content-type': 'application/json; charset=utf-8',
+707 verbose headers   etag: '"964741821e73ce1e6f6046feb38f680f"',
+707 verbose headers   vary: 'Accept-Encoding',
+707 verbose headers   'content-encoding': 'gzip',
+707 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+707 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+707 verbose headers   connection: 'keep-alive',
+707 verbose headers   'transfer-encoding': 'chunked' }
+708 silly get cb [ 200,
+708 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+708 silly get     'content-type': 'application/json; charset=utf-8',
+708 silly get     etag: '"964741821e73ce1e6f6046feb38f680f"',
+708 silly get     vary: 'Accept-Encoding',
+708 silly get     'content-encoding': 'gzip',
+708 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+708 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+708 silly get     connection: 'keep-alive',
+708 silly get     'transfer-encoding': 'chunked' } ]
+709 verbose get saving heroku-cli-oauth to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-cli-oauth\.cache.json
+710 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+711 info retry fetch attempt 1 at 14:59:58
+712 info attempt registry request try #1 at 14:59:58
+713 http fetch GET http://intersinopia:4873/heroku-local/-/heroku-local-5.1.21.tgz
+714 verbose request using bearer token for auth
+715 silly resolveWithNewModule heroku-cli-oauth@2.1.0 checking installable status
+716 silly cache add args [ 'heroku-cli-oauth@2.1.0', null ]
+717 verbose cache add spec heroku-cli-oauth@2.1.0
+718 silly cache add parsed spec Result {
+718 silly cache add   raw: 'heroku-cli-oauth@2.1.0',
+718 silly cache add   scope: null,
+718 silly cache add   escapedName: 'heroku-cli-oauth',
+718 silly cache add   name: 'heroku-cli-oauth',
+718 silly cache add   rawSpec: '2.1.0',
+718 silly cache add   spec: '2.1.0',
+718 silly cache add   type: 'version' }
+719 silly addNamed heroku-cli-oauth@2.1.0
+720 verbose addNamed "2.1.0" is a plain semver version for heroku-cli-oauth
+721 silly mapToRegistry name heroku-cli-oauth
+722 silly mapToRegistry using default registry
+723 silly mapToRegistry registry http://intersinopia:4873/
+724 silly mapToRegistry data Result {
+724 silly mapToRegistry   raw: 'heroku-cli-oauth',
+724 silly mapToRegistry   scope: null,
+724 silly mapToRegistry   escapedName: 'heroku-cli-oauth',
+724 silly mapToRegistry   name: 'heroku-cli-oauth',
+724 silly mapToRegistry   rawSpec: '',
+724 silly mapToRegistry   spec: 'latest',
+724 silly mapToRegistry   type: 'tag' }
+725 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-oauth
+726 verbose addNameVersion registry:http://intersinopia:4873/heroku-cli-oauth not in flight; fetching
+727 verbose get http://intersinopia:4873/heroku-cli-oauth not expired, no request
+728 silly mapToRegistry name heroku-cli-oauth
+729 silly mapToRegistry using default registry
+730 silly mapToRegistry registry http://intersinopia:4873/
+731 silly mapToRegistry data Result {
+731 silly mapToRegistry   raw: 'heroku-cli-oauth',
+731 silly mapToRegistry   scope: null,
+731 silly mapToRegistry   escapedName: 'heroku-cli-oauth',
+731 silly mapToRegistry   name: 'heroku-cli-oauth',
+731 silly mapToRegistry   rawSpec: '',
+731 silly mapToRegistry   spec: 'latest',
+731 silly mapToRegistry   type: 'tag' }
+732 silly mapToRegistry uri http://intersinopia:4873/heroku-cli-oauth
+733 verbose addRemoteTarball http://intersinopia:4873/heroku-cli-oauth/-/heroku-cli-oauth-2.1.0.tgz not in flight; adding
+734 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-cli-oauth/-/heroku-cli-oauth-2.1.0.tgz',
+734 verbose addRemoteTarball   'e38fdf7307e010fa5b8612143f7ba4b97ed2830c' ]
+735 info retry fetch attempt 1 at 14:59:58
+736 info attempt registry request try #1 at 14:59:58
+737 http fetch GET http://intersinopia:4873/heroku-cli-oauth/-/heroku-cli-oauth-2.1.0.tgz
+738 verbose request using bearer token for auth
+739 http 200 http://intersinopia:4873/heroku-redis
+740 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+740 verbose headers   'content-type': 'application/json; charset=utf-8',
+740 verbose headers   etag: '"9a5af7e4fa8a652223fbffccb54c3b81"',
+740 verbose headers   vary: 'Accept-Encoding',
+740 verbose headers   'content-encoding': 'gzip',
+740 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+740 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+740 verbose headers   connection: 'keep-alive',
+740 verbose headers   'transfer-encoding': 'chunked' }
+741 silly get cb [ 200,
+741 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+741 silly get     'content-type': 'application/json; charset=utf-8',
+741 silly get     etag: '"9a5af7e4fa8a652223fbffccb54c3b81"',
+741 silly get     vary: 'Accept-Encoding',
+741 silly get     'content-encoding': 'gzip',
+741 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+741 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+741 silly get     connection: 'keep-alive',
+741 silly get     'transfer-encoding': 'chunked' } ]
+742 verbose get saving heroku-redis to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-redis\.cache.json
+743 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+744 silly resolveWithNewModule heroku-redis@1.3.0 checking installable status
+745 silly cache add args [ 'heroku-redis@1.3.0', null ]
+746 verbose cache add spec heroku-redis@1.3.0
+747 silly cache add parsed spec Result {
+747 silly cache add   raw: 'heroku-redis@1.3.0',
+747 silly cache add   scope: null,
+747 silly cache add   escapedName: 'heroku-redis',
+747 silly cache add   name: 'heroku-redis',
+747 silly cache add   rawSpec: '1.3.0',
+747 silly cache add   spec: '1.3.0',
+747 silly cache add   type: 'version' }
+748 silly addNamed heroku-redis@1.3.0
+749 verbose addNamed "1.3.0" is a plain semver version for heroku-redis
+750 silly mapToRegistry name heroku-redis
+751 silly mapToRegistry using default registry
+752 silly mapToRegistry registry http://intersinopia:4873/
+753 silly mapToRegistry data Result {
+753 silly mapToRegistry   raw: 'heroku-redis',
+753 silly mapToRegistry   scope: null,
+753 silly mapToRegistry   escapedName: 'heroku-redis',
+753 silly mapToRegistry   name: 'heroku-redis',
+753 silly mapToRegistry   rawSpec: '',
+753 silly mapToRegistry   spec: 'latest',
+753 silly mapToRegistry   type: 'tag' }
+754 silly mapToRegistry uri http://intersinopia:4873/heroku-redis
+755 verbose addNameVersion registry:http://intersinopia:4873/heroku-redis not in flight; fetching
+756 verbose get http://intersinopia:4873/heroku-redis not expired, no request
+757 silly mapToRegistry name heroku-redis
+758 silly mapToRegistry using default registry
+759 silly mapToRegistry registry http://intersinopia:4873/
+760 silly mapToRegistry data Result {
+760 silly mapToRegistry   raw: 'heroku-redis',
+760 silly mapToRegistry   scope: null,
+760 silly mapToRegistry   escapedName: 'heroku-redis',
+760 silly mapToRegistry   name: 'heroku-redis',
+760 silly mapToRegistry   rawSpec: '',
+760 silly mapToRegistry   spec: 'latest',
+760 silly mapToRegistry   type: 'tag' }
+761 silly mapToRegistry uri http://intersinopia:4873/heroku-redis
+762 verbose addRemoteTarball http://intersinopia:4873/heroku-redis/-/heroku-redis-1.3.0.tgz not in flight; adding
+763 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-redis/-/heroku-redis-1.3.0.tgz',
+763 verbose addRemoteTarball   '738331c34311d7f872e9f52332363e8811bd108b' ]
+764 info retry fetch attempt 1 at 14:59:58
+765 info attempt registry request try #1 at 14:59:58
+766 http fetch GET http://intersinopia:4873/heroku-redis/-/heroku-redis-1.3.0.tgz
+767 verbose request using bearer token for auth
+768 http 200 http://intersinopia:4873/heroku-orgs
+769 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+769 verbose headers   'content-type': 'application/json; charset=utf-8',
+769 verbose headers   etag: '"7f12d1f9e9a959684681543ce4ae109e"',
+769 verbose headers   vary: 'Accept-Encoding',
+769 verbose headers   'content-encoding': 'gzip',
+769 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+769 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+769 verbose headers   connection: 'keep-alive',
+769 verbose headers   'transfer-encoding': 'chunked' }
+770 silly get cb [ 200,
+770 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+770 silly get     'content-type': 'application/json; charset=utf-8',
+770 silly get     etag: '"7f12d1f9e9a959684681543ce4ae109e"',
+770 silly get     vary: 'Accept-Encoding',
+770 silly get     'content-encoding': 'gzip',
+770 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+770 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+770 silly get     connection: 'keep-alive',
+770 silly get     'transfer-encoding': 'chunked' } ]
+771 verbose get saving heroku-orgs to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-orgs\.cache.json
+772 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+773 silly resolveWithNewModule heroku-orgs@1.7.1 checking installable status
+774 silly cache add args [ 'heroku-orgs@1.7.1', null ]
+775 verbose cache add spec heroku-orgs@1.7.1
+776 silly cache add parsed spec Result {
+776 silly cache add   raw: 'heroku-orgs@1.7.1',
+776 silly cache add   scope: null,
+776 silly cache add   escapedName: 'heroku-orgs',
+776 silly cache add   name: 'heroku-orgs',
+776 silly cache add   rawSpec: '1.7.1',
+776 silly cache add   spec: '1.7.1',
+776 silly cache add   type: 'version' }
+777 silly addNamed heroku-orgs@1.7.1
+778 verbose addNamed "1.7.1" is a plain semver version for heroku-orgs
+779 silly mapToRegistry name heroku-orgs
+780 silly mapToRegistry using default registry
+781 silly mapToRegistry registry http://intersinopia:4873/
+782 silly mapToRegistry data Result {
+782 silly mapToRegistry   raw: 'heroku-orgs',
+782 silly mapToRegistry   scope: null,
+782 silly mapToRegistry   escapedName: 'heroku-orgs',
+782 silly mapToRegistry   name: 'heroku-orgs',
+782 silly mapToRegistry   rawSpec: '',
+782 silly mapToRegistry   spec: 'latest',
+782 silly mapToRegistry   type: 'tag' }
+783 silly mapToRegistry uri http://intersinopia:4873/heroku-orgs
+784 verbose addNameVersion registry:http://intersinopia:4873/heroku-orgs not in flight; fetching
+785 verbose get http://intersinopia:4873/heroku-orgs not expired, no request
+786 silly mapToRegistry name heroku-orgs
+787 silly mapToRegistry using default registry
+788 silly mapToRegistry registry http://intersinopia:4873/
+789 silly mapToRegistry data Result {
+789 silly mapToRegistry   raw: 'heroku-orgs',
+789 silly mapToRegistry   scope: null,
+789 silly mapToRegistry   escapedName: 'heroku-orgs',
+789 silly mapToRegistry   name: 'heroku-orgs',
+789 silly mapToRegistry   rawSpec: '',
+789 silly mapToRegistry   spec: 'latest',
+789 silly mapToRegistry   type: 'tag' }
+790 silly mapToRegistry uri http://intersinopia:4873/heroku-orgs
+791 verbose addRemoteTarball http://intersinopia:4873/heroku-orgs/-/heroku-orgs-1.7.1.tgz not in flight; adding
+792 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-orgs/-/heroku-orgs-1.7.1.tgz',
+792 verbose addRemoteTarball   'ca8bdbccf7236f4ddc14d32c54273567d2bd8208' ]
+793 info retry fetch attempt 1 at 14:59:58
+794 info attempt registry request try #1 at 14:59:58
+795 http fetch GET http://intersinopia:4873/heroku-orgs/-/heroku-orgs-1.7.1.tgz
+796 verbose request using bearer token for auth
+797 http 200 http://intersinopia:4873/heroku-ps-exec
+798 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+798 verbose headers   'content-type': 'application/json; charset=utf-8',
+798 verbose headers   etag: '"51160a86b551dc3f3a91d549b26c029a"',
+798 verbose headers   vary: 'Accept-Encoding',
+798 verbose headers   'content-encoding': 'gzip',
+798 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+798 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+798 verbose headers   connection: 'keep-alive',
+798 verbose headers   'transfer-encoding': 'chunked' }
+799 silly get cb [ 200,
+799 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+799 silly get     'content-type': 'application/json; charset=utf-8',
+799 silly get     etag: '"51160a86b551dc3f3a91d549b26c029a"',
+799 silly get     vary: 'Accept-Encoding',
+799 silly get     'content-encoding': 'gzip',
+799 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+799 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+799 silly get     connection: 'keep-alive',
+799 silly get     'transfer-encoding': 'chunked' } ]
+800 verbose get saving heroku-ps-exec to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-ps-exec\.cache.json
+801 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+802 silly resolveWithNewModule heroku-ps-exec@2.3.1 checking installable status
+803 silly cache add args [ 'heroku-ps-exec@2.3.1', null ]
+804 verbose cache add spec heroku-ps-exec@2.3.1
+805 silly cache add parsed spec Result {
+805 silly cache add   raw: 'heroku-ps-exec@2.3.1',
+805 silly cache add   scope: null,
+805 silly cache add   escapedName: 'heroku-ps-exec',
+805 silly cache add   name: 'heroku-ps-exec',
+805 silly cache add   rawSpec: '2.3.1',
+805 silly cache add   spec: '2.3.1',
+805 silly cache add   type: 'version' }
+806 silly addNamed heroku-ps-exec@2.3.1
+807 verbose addNamed "2.3.1" is a plain semver version for heroku-ps-exec
+808 silly mapToRegistry name heroku-ps-exec
+809 silly mapToRegistry using default registry
+810 silly mapToRegistry registry http://intersinopia:4873/
+811 silly mapToRegistry data Result {
+811 silly mapToRegistry   raw: 'heroku-ps-exec',
+811 silly mapToRegistry   scope: null,
+811 silly mapToRegistry   escapedName: 'heroku-ps-exec',
+811 silly mapToRegistry   name: 'heroku-ps-exec',
+811 silly mapToRegistry   rawSpec: '',
+811 silly mapToRegistry   spec: 'latest',
+811 silly mapToRegistry   type: 'tag' }
+812 silly mapToRegistry uri http://intersinopia:4873/heroku-ps-exec
+813 verbose addNameVersion registry:http://intersinopia:4873/heroku-ps-exec not in flight; fetching
+814 verbose get http://intersinopia:4873/heroku-ps-exec not expired, no request
+815 silly mapToRegistry name heroku-ps-exec
+816 silly mapToRegistry using default registry
+817 silly mapToRegistry registry http://intersinopia:4873/
+818 silly mapToRegistry data Result {
+818 silly mapToRegistry   raw: 'heroku-ps-exec',
+818 silly mapToRegistry   scope: null,
+818 silly mapToRegistry   escapedName: 'heroku-ps-exec',
+818 silly mapToRegistry   name: 'heroku-ps-exec',
+818 silly mapToRegistry   rawSpec: '',
+818 silly mapToRegistry   spec: 'latest',
+818 silly mapToRegistry   type: 'tag' }
+819 silly mapToRegistry uri http://intersinopia:4873/heroku-ps-exec
+820 verbose addRemoteTarball http://intersinopia:4873/heroku-ps-exec/-/heroku-ps-exec-2.3.1.tgz not in flight; adding
+821 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-ps-exec/-/heroku-ps-exec-2.3.1.tgz',
+821 verbose addRemoteTarball   '282137897a5bf87304955f54a07d1b4a27c47d2e' ]
+822 info retry fetch attempt 1 at 14:59:58
+823 info attempt registry request try #1 at 14:59:58
+824 http fetch GET http://intersinopia:4873/heroku-ps-exec/-/heroku-ps-exec-2.3.1.tgz
+825 verbose request using bearer token for auth
+826 http 200 http://intersinopia:4873/heroku-spaces
+827 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+827 verbose headers   'content-type': 'application/json; charset=utf-8',
+827 verbose headers   etag: '"70a05c8866752b87072249f8a3920544"',
+827 verbose headers   vary: 'Accept-Encoding',
+827 verbose headers   'content-encoding': 'gzip',
+827 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+827 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+827 verbose headers   connection: 'keep-alive',
+827 verbose headers   'transfer-encoding': 'chunked' }
+828 silly get cb [ 200,
+828 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+828 silly get     'content-type': 'application/json; charset=utf-8',
+828 silly get     etag: '"70a05c8866752b87072249f8a3920544"',
+828 silly get     vary: 'Accept-Encoding',
+828 silly get     'content-encoding': 'gzip',
+828 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+828 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+828 silly get     connection: 'keep-alive',
+828 silly get     'transfer-encoding': 'chunked' } ]
+829 verbose get saving heroku-spaces to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-spaces\.cache.json
+830 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+831 http 200 http://intersinopia:4873/heroku-webhooks
+832 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+832 verbose headers   'content-type': 'application/json; charset=utf-8',
+832 verbose headers   etag: '"157bdfc95db53904ba4930f4025bbe1b"',
+832 verbose headers   vary: 'Accept-Encoding',
+832 verbose headers   'content-encoding': 'gzip',
+832 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+832 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+832 verbose headers   connection: 'keep-alive',
+832 verbose headers   'transfer-encoding': 'chunked' }
+833 silly get cb [ 200,
+833 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+833 silly get     'content-type': 'application/json; charset=utf-8',
+833 silly get     etag: '"157bdfc95db53904ba4930f4025bbe1b"',
+833 silly get     vary: 'Accept-Encoding',
+833 silly get     'content-encoding': 'gzip',
+833 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+833 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+833 silly get     connection: 'keep-alive',
+833 silly get     'transfer-encoding': 'chunked' } ]
+834 verbose get saving heroku-webhooks to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-webhooks\.cache.json
+835 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+836 silly resolveWithNewModule heroku-spaces@2.11.0 checking installable status
+837 silly cache add args [ 'heroku-spaces@2.11.0', null ]
+838 verbose cache add spec heroku-spaces@2.11.0
+839 silly cache add parsed spec Result {
+839 silly cache add   raw: 'heroku-spaces@2.11.0',
+839 silly cache add   scope: null,
+839 silly cache add   escapedName: 'heroku-spaces',
+839 silly cache add   name: 'heroku-spaces',
+839 silly cache add   rawSpec: '2.11.0',
+839 silly cache add   spec: '2.11.0',
+839 silly cache add   type: 'version' }
+840 silly addNamed heroku-spaces@2.11.0
+841 verbose addNamed "2.11.0" is a plain semver version for heroku-spaces
+842 silly mapToRegistry name heroku-spaces
+843 silly mapToRegistry using default registry
+844 silly mapToRegistry registry http://intersinopia:4873/
+845 silly mapToRegistry data Result {
+845 silly mapToRegistry   raw: 'heroku-spaces',
+845 silly mapToRegistry   scope: null,
+845 silly mapToRegistry   escapedName: 'heroku-spaces',
+845 silly mapToRegistry   name: 'heroku-spaces',
+845 silly mapToRegistry   rawSpec: '',
+845 silly mapToRegistry   spec: 'latest',
+845 silly mapToRegistry   type: 'tag' }
+846 silly mapToRegistry uri http://intersinopia:4873/heroku-spaces
+847 verbose addNameVersion registry:http://intersinopia:4873/heroku-spaces not in flight; fetching
+848 verbose get http://intersinopia:4873/heroku-spaces not expired, no request
+849 silly mapToRegistry name heroku-spaces
+850 silly mapToRegistry using default registry
+851 silly mapToRegistry registry http://intersinopia:4873/
+852 silly mapToRegistry data Result {
+852 silly mapToRegistry   raw: 'heroku-spaces',
+852 silly mapToRegistry   scope: null,
+852 silly mapToRegistry   escapedName: 'heroku-spaces',
+852 silly mapToRegistry   name: 'heroku-spaces',
+852 silly mapToRegistry   rawSpec: '',
+852 silly mapToRegistry   spec: 'latest',
+852 silly mapToRegistry   type: 'tag' }
+853 silly mapToRegistry uri http://intersinopia:4873/heroku-spaces
+854 verbose addRemoteTarball http://intersinopia:4873/heroku-spaces/-/heroku-spaces-2.11.0.tgz not in flight; adding
+855 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-spaces/-/heroku-spaces-2.11.0.tgz',
+855 verbose addRemoteTarball   'b475633865dcfbaa18c9fb7080da3b84269c0858' ]
+856 silly resolveWithNewModule heroku-webhooks@1.1.0 checking installable status
+857 silly cache add args [ 'heroku-webhooks@1.1.0', null ]
+858 verbose cache add spec heroku-webhooks@1.1.0
+859 silly cache add parsed spec Result {
+859 silly cache add   raw: 'heroku-webhooks@1.1.0',
+859 silly cache add   scope: null,
+859 silly cache add   escapedName: 'heroku-webhooks',
+859 silly cache add   name: 'heroku-webhooks',
+859 silly cache add   rawSpec: '1.1.0',
+859 silly cache add   spec: '1.1.0',
+859 silly cache add   type: 'version' }
+860 silly addNamed heroku-webhooks@1.1.0
+861 verbose addNamed "1.1.0" is a plain semver version for heroku-webhooks
+862 silly mapToRegistry name heroku-webhooks
+863 silly mapToRegistry using default registry
+864 silly mapToRegistry registry http://intersinopia:4873/
+865 silly mapToRegistry data Result {
+865 silly mapToRegistry   raw: 'heroku-webhooks',
+865 silly mapToRegistry   scope: null,
+865 silly mapToRegistry   escapedName: 'heroku-webhooks',
+865 silly mapToRegistry   name: 'heroku-webhooks',
+865 silly mapToRegistry   rawSpec: '',
+865 silly mapToRegistry   spec: 'latest',
+865 silly mapToRegistry   type: 'tag' }
+866 silly mapToRegistry uri http://intersinopia:4873/heroku-webhooks
+867 verbose addNameVersion registry:http://intersinopia:4873/heroku-webhooks not in flight; fetching
+868 verbose get http://intersinopia:4873/heroku-webhooks not expired, no request
+869 silly mapToRegistry name heroku-webhooks
+870 silly mapToRegistry using default registry
+871 silly mapToRegistry registry http://intersinopia:4873/
+872 silly mapToRegistry data Result {
+872 silly mapToRegistry   raw: 'heroku-webhooks',
+872 silly mapToRegistry   scope: null,
+872 silly mapToRegistry   escapedName: 'heroku-webhooks',
+872 silly mapToRegistry   name: 'heroku-webhooks',
+872 silly mapToRegistry   rawSpec: '',
+872 silly mapToRegistry   spec: 'latest',
+872 silly mapToRegistry   type: 'tag' }
+873 silly mapToRegistry uri http://intersinopia:4873/heroku-webhooks
+874 verbose addRemoteTarball http://intersinopia:4873/heroku-webhooks/-/heroku-webhooks-1.1.0.tgz not in flight; adding
+875 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-webhooks/-/heroku-webhooks-1.1.0.tgz',
+875 verbose addRemoteTarball   'd9773b6f4e90a6b62da5a1988112511166462bd4' ]
+876 info retry fetch attempt 1 at 14:59:58
+877 info attempt registry request try #1 at 14:59:58
+878 http fetch GET http://intersinopia:4873/heroku-spaces/-/heroku-spaces-2.11.0.tgz
+879 verbose request using bearer token for auth
+880 info retry fetch attempt 1 at 14:59:58
+881 info attempt registry request try #1 at 14:59:58
+882 http fetch GET http://intersinopia:4873/heroku-webhooks/-/heroku-webhooks-1.1.0.tgz
+883 verbose request using bearer token for auth
+884 http 200 http://intersinopia:4873/heroku-pg
+885 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+885 verbose headers   'content-type': 'application/json; charset=utf-8',
+885 verbose headers   etag: '"199e9b28b2135f34bbb9bdbe8963a5f6"',
+885 verbose headers   vary: 'Accept-Encoding',
+885 verbose headers   'content-encoding': 'gzip',
+885 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+885 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+885 verbose headers   connection: 'keep-alive',
+885 verbose headers   'transfer-encoding': 'chunked' }
+886 silly get cb [ 200,
+886 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+886 silly get     'content-type': 'application/json; charset=utf-8',
+886 silly get     etag: '"199e9b28b2135f34bbb9bdbe8963a5f6"',
+886 silly get     vary: 'Accept-Encoding',
+886 silly get     'content-encoding': 'gzip',
+886 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+886 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+886 silly get     connection: 'keep-alive',
+886 silly get     'transfer-encoding': 'chunked' } ]
+887 verbose get saving heroku-pg to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-pg\.cache.json
+888 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+889 http 200 http://intersinopia:4873/http-call
+890 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+890 verbose headers   'content-type': 'application/json; charset=utf-8',
+890 verbose headers   etag: '"ae2b0f2d8d95b179c68c09d95dcc3de7"',
+890 verbose headers   vary: 'Accept-Encoding',
+890 verbose headers   'content-encoding': 'gzip',
+890 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+890 verbose headers   date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+890 verbose headers   connection: 'keep-alive',
+890 verbose headers   'transfer-encoding': 'chunked' }
+891 silly get cb [ 200,
+891 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+891 silly get     'content-type': 'application/json; charset=utf-8',
+891 silly get     etag: '"ae2b0f2d8d95b179c68c09d95dcc3de7"',
+891 silly get     vary: 'Accept-Encoding',
+891 silly get     'content-encoding': 'gzip',
+891 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+891 silly get     date: 'Tue, 06 Mar 2018 14:01:15 GMT',
+891 silly get     connection: 'keep-alive',
+891 silly get     'transfer-encoding': 'chunked' } ]
+892 verbose get saving http-call to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\http-call\.cache.json
+893 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+894 silly resolveWithNewModule heroku-pg@2.9.0 checking installable status
+895 silly cache add args [ 'heroku-pg@2.9.0', null ]
+896 verbose cache add spec heroku-pg@2.9.0
+897 silly cache add parsed spec Result {
+897 silly cache add   raw: 'heroku-pg@2.9.0',
+897 silly cache add   scope: null,
+897 silly cache add   escapedName: 'heroku-pg',
+897 silly cache add   name: 'heroku-pg',
+897 silly cache add   rawSpec: '2.9.0',
+897 silly cache add   spec: '2.9.0',
+897 silly cache add   type: 'version' }
+898 silly addNamed heroku-pg@2.9.0
+899 verbose addNamed "2.9.0" is a plain semver version for heroku-pg
+900 silly mapToRegistry name heroku-pg
+901 silly mapToRegistry using default registry
+902 silly mapToRegistry registry http://intersinopia:4873/
+903 silly mapToRegistry data Result {
+903 silly mapToRegistry   raw: 'heroku-pg',
+903 silly mapToRegistry   scope: null,
+903 silly mapToRegistry   escapedName: 'heroku-pg',
+903 silly mapToRegistry   name: 'heroku-pg',
+903 silly mapToRegistry   rawSpec: '',
+903 silly mapToRegistry   spec: 'latest',
+903 silly mapToRegistry   type: 'tag' }
+904 silly mapToRegistry uri http://intersinopia:4873/heroku-pg
+905 verbose addNameVersion registry:http://intersinopia:4873/heroku-pg not in flight; fetching
+906 verbose get http://intersinopia:4873/heroku-pg not expired, no request
+907 silly mapToRegistry name heroku-pg
+908 silly mapToRegistry using default registry
+909 silly mapToRegistry registry http://intersinopia:4873/
+910 silly mapToRegistry data Result {
+910 silly mapToRegistry   raw: 'heroku-pg',
+910 silly mapToRegistry   scope: null,
+910 silly mapToRegistry   escapedName: 'heroku-pg',
+910 silly mapToRegistry   name: 'heroku-pg',
+910 silly mapToRegistry   rawSpec: '',
+910 silly mapToRegistry   spec: 'latest',
+910 silly mapToRegistry   type: 'tag' }
+911 silly mapToRegistry uri http://intersinopia:4873/heroku-pg
+912 verbose addRemoteTarball http://intersinopia:4873/heroku-pg/-/heroku-pg-2.9.0.tgz not in flight; adding
+913 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-pg/-/heroku-pg-2.9.0.tgz',
+913 verbose addRemoteTarball   '056789b0114a45813dc0b4a4e135752e98b94d49' ]
+914 silly resolveWithNewModule http-call@4.0.8 checking installable status
+915 silly cache add args [ 'http-call@4.0.8', null ]
+916 verbose cache add spec http-call@4.0.8
+917 silly cache add parsed spec Result {
+917 silly cache add   raw: 'http-call@4.0.8',
+917 silly cache add   scope: null,
+917 silly cache add   escapedName: 'http-call',
+917 silly cache add   name: 'http-call',
+917 silly cache add   rawSpec: '4.0.8',
+917 silly cache add   spec: '4.0.8',
+917 silly cache add   type: 'version' }
+918 silly addNamed http-call@4.0.8
+919 verbose addNamed "4.0.8" is a plain semver version for http-call
+920 silly mapToRegistry name http-call
+921 silly mapToRegistry using default registry
+922 silly mapToRegistry registry http://intersinopia:4873/
+923 silly mapToRegistry data Result {
+923 silly mapToRegistry   raw: 'http-call',
+923 silly mapToRegistry   scope: null,
+923 silly mapToRegistry   escapedName: 'http-call',
+923 silly mapToRegistry   name: 'http-call',
+923 silly mapToRegistry   rawSpec: '',
+923 silly mapToRegistry   spec: 'latest',
+923 silly mapToRegistry   type: 'tag' }
+924 silly mapToRegistry uri http://intersinopia:4873/http-call
+925 verbose addNameVersion registry:http://intersinopia:4873/http-call not in flight; fetching
+926 info retry fetch attempt 1 at 14:59:59
+927 info attempt registry request try #1 at 14:59:59
+928 http fetch GET http://intersinopia:4873/heroku-pg/-/heroku-pg-2.9.0.tgz
+929 verbose request using bearer token for auth
+930 verbose get http://intersinopia:4873/http-call not expired, no request
+931 silly mapToRegistry name http-call
+932 silly mapToRegistry using default registry
+933 silly mapToRegistry registry http://intersinopia:4873/
+934 silly mapToRegistry data Result {
+934 silly mapToRegistry   raw: 'http-call',
+934 silly mapToRegistry   scope: null,
+934 silly mapToRegistry   escapedName: 'http-call',
+934 silly mapToRegistry   name: 'http-call',
+934 silly mapToRegistry   rawSpec: '',
+934 silly mapToRegistry   spec: 'latest',
+934 silly mapToRegistry   type: 'tag' }
+935 silly mapToRegistry uri http://intersinopia:4873/http-call
+936 verbose addRemoteTarball http://intersinopia:4873/http-call/-/http-call-4.0.8.tgz not in flight; adding
+937 verbose addRemoteTarball [ 'http://intersinopia:4873/http-call/-/http-call-4.0.8.tgz',
+937 verbose addRemoteTarball   'fd0207764958a3f1238bb3344ff912b32ddfa64a' ]
+938 info retry fetch attempt 1 at 14:59:59
+939 info attempt registry request try #1 at 14:59:59
+940 http fetch GET http://intersinopia:4873/http-call/-/http-call-4.0.8.tgz
+941 verbose request using bearer token for auth
+942 http 200 http://intersinopia:4873/ts-lodash
+943 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+943 verbose headers   'content-type': 'application/json; charset=utf-8',
+943 verbose headers   etag: '"0a032cd6d6bb65dede04fa7b0bc4b456"',
+943 verbose headers   vary: 'Accept-Encoding',
+943 verbose headers   'content-encoding': 'gzip',
+943 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+943 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+943 verbose headers   connection: 'keep-alive',
+943 verbose headers   'transfer-encoding': 'chunked' }
+944 silly get cb [ 200,
+944 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+944 silly get     'content-type': 'application/json; charset=utf-8',
+944 silly get     etag: '"0a032cd6d6bb65dede04fa7b0bc4b456"',
+944 silly get     vary: 'Accept-Encoding',
+944 silly get     'content-encoding': 'gzip',
+944 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+944 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+944 silly get     connection: 'keep-alive',
+944 silly get     'transfer-encoding': 'chunked' } ]
+945 verbose get saving ts-lodash to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\ts-lodash\.cache.json
+946 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+947 silly resolveWithNewModule ts-lodash@4.0.11 checking installable status
+948 silly cache add args [ 'ts-lodash@^4.0.11', null ]
+949 verbose cache add spec ts-lodash@^4.0.11
+950 silly cache add parsed spec Result {
+950 silly cache add   raw: 'ts-lodash@^4.0.11',
+950 silly cache add   scope: null,
+950 silly cache add   escapedName: 'ts-lodash',
+950 silly cache add   name: 'ts-lodash',
+950 silly cache add   rawSpec: '^4.0.11',
+950 silly cache add   spec: '>=4.0.11 <5.0.0',
+950 silly cache add   type: 'range' }
+951 silly addNamed ts-lodash@>=4.0.11 <5.0.0
+952 verbose addNamed ">=4.0.11 <5.0.0" is a valid semver range for ts-lodash
+953 silly addNameRange { name: 'ts-lodash', range: '>=4.0.11 <5.0.0', hasData: false }
+954 silly mapToRegistry name ts-lodash
+955 silly mapToRegistry using default registry
+956 silly mapToRegistry registry http://intersinopia:4873/
+957 silly mapToRegistry data Result {
+957 silly mapToRegistry   raw: 'ts-lodash',
+957 silly mapToRegistry   scope: null,
+957 silly mapToRegistry   escapedName: 'ts-lodash',
+957 silly mapToRegistry   name: 'ts-lodash',
+957 silly mapToRegistry   rawSpec: '',
+957 silly mapToRegistry   spec: 'latest',
+957 silly mapToRegistry   type: 'tag' }
+958 silly mapToRegistry uri http://intersinopia:4873/ts-lodash
+959 verbose addNameRange registry:http://intersinopia:4873/ts-lodash not in flight; fetching
+960 verbose get http://intersinopia:4873/ts-lodash not expired, no request
+961 silly addNameRange number 2 { name: 'ts-lodash', range: '>=4.0.11 <5.0.0', hasData: true }
+962 silly addNameRange versions [ 'ts-lodash',
+962 silly addNameRange   [ '2.0.0',
+962 silly addNameRange     '4.0.0',
+962 silly addNameRange     '4.0.1',
+962 silly addNameRange     '4.0.2',
+962 silly addNameRange     '4.0.3',
+962 silly addNameRange     '4.0.4',
+962 silly addNameRange     '4.0.5',
+962 silly addNameRange     '4.0.6',
+962 silly addNameRange     '4.0.7',
+962 silly addNameRange     '4.0.8',
+962 silly addNameRange     '4.0.9',
+962 silly addNameRange     '4.0.10',
+962 silly addNameRange     '4.0.11' ] ]
+963 silly addNamed ts-lodash@4.0.11
+964 verbose addNamed "4.0.11" is a plain semver version for ts-lodash
+965 silly mapToRegistry name ts-lodash
+966 silly mapToRegistry using default registry
+967 silly mapToRegistry registry http://intersinopia:4873/
+968 silly mapToRegistry data Result {
+968 silly mapToRegistry   raw: 'ts-lodash',
+968 silly mapToRegistry   scope: null,
+968 silly mapToRegistry   escapedName: 'ts-lodash',
+968 silly mapToRegistry   name: 'ts-lodash',
+968 silly mapToRegistry   rawSpec: '',
+968 silly mapToRegistry   spec: 'latest',
+968 silly mapToRegistry   type: 'tag' }
+969 silly mapToRegistry uri http://intersinopia:4873/ts-lodash
+970 verbose addRemoteTarball http://intersinopia:4873/ts-lodash/-/ts-lodash-4.0.11.tgz not in flight; adding
+971 verbose addRemoteTarball [ 'http://intersinopia:4873/ts-lodash/-/ts-lodash-4.0.11.tgz',
+971 verbose addRemoteTarball   'f668e2ad4b6cb3bcbeceb894cf0a8cde48b3cd85' ]
+972 info retry fetch attempt 1 at 14:59:59
+973 info attempt registry request try #1 at 14:59:59
+974 http fetch GET http://intersinopia:4873/ts-lodash/-/ts-lodash-4.0.11.tgz
+975 verbose request using bearer token for auth
+976 http 200 http://intersinopia:4873/cli-ux
+977 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+977 verbose headers   'content-type': 'application/json; charset=utf-8',
+977 verbose headers   etag: '"7fe358e36d6602aff588a9a8e339b77c"',
+977 verbose headers   vary: 'Accept-Encoding',
+977 verbose headers   'content-encoding': 'gzip',
+977 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+977 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+977 verbose headers   connection: 'keep-alive',
+977 verbose headers   'transfer-encoding': 'chunked' }
+978 silly get cb [ 200,
+978 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+978 silly get     'content-type': 'application/json; charset=utf-8',
+978 silly get     etag: '"7fe358e36d6602aff588a9a8e339b77c"',
+978 silly get     vary: 'Accept-Encoding',
+978 silly get     'content-encoding': 'gzip',
+978 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+978 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+978 silly get     connection: 'keep-alive',
+978 silly get     'transfer-encoding': 'chunked' } ]
+979 verbose get saving cli-ux to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\cli-ux\.cache.json
+980 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+981 silly resolveWithNewModule cli-ux@2.0.21 checking installable status
+982 silly cache add args [ 'cli-ux@2.0.21', null ]
+983 verbose cache add spec cli-ux@2.0.21
+984 silly cache add parsed spec Result {
+984 silly cache add   raw: 'cli-ux@2.0.21',
+984 silly cache add   scope: null,
+984 silly cache add   escapedName: 'cli-ux',
+984 silly cache add   name: 'cli-ux',
+984 silly cache add   rawSpec: '2.0.21',
+984 silly cache add   spec: '2.0.21',
+984 silly cache add   type: 'version' }
+985 silly addNamed cli-ux@2.0.21
+986 verbose addNamed "2.0.21" is a plain semver version for cli-ux
+987 silly mapToRegistry name cli-ux
+988 silly mapToRegistry using default registry
+989 silly mapToRegistry registry http://intersinopia:4873/
+990 silly mapToRegistry data Result {
+990 silly mapToRegistry   raw: 'cli-ux',
+990 silly mapToRegistry   scope: null,
+990 silly mapToRegistry   escapedName: 'cli-ux',
+990 silly mapToRegistry   name: 'cli-ux',
+990 silly mapToRegistry   rawSpec: '',
+990 silly mapToRegistry   spec: 'latest',
+990 silly mapToRegistry   type: 'tag' }
+991 silly mapToRegistry uri http://intersinopia:4873/cli-ux
+992 verbose addNameVersion registry:http://intersinopia:4873/cli-ux not in flight; fetching
+993 verbose get http://intersinopia:4873/cli-ux not expired, no request
+994 silly mapToRegistry name cli-ux
+995 silly mapToRegistry using default registry
+996 silly mapToRegistry registry http://intersinopia:4873/
+997 silly mapToRegistry data Result {
+997 silly mapToRegistry   raw: 'cli-ux',
+997 silly mapToRegistry   scope: null,
+997 silly mapToRegistry   escapedName: 'cli-ux',
+997 silly mapToRegistry   name: 'cli-ux',
+997 silly mapToRegistry   rawSpec: '',
+997 silly mapToRegistry   spec: 'latest',
+997 silly mapToRegistry   type: 'tag' }
+998 silly mapToRegistry uri http://intersinopia:4873/cli-ux
+999 verbose addRemoteTarball http://intersinopia:4873/cli-ux/-/cli-ux-2.0.21.tgz not in flight; adding
+1000 verbose addRemoteTarball [ 'http://intersinopia:4873/cli-ux/-/cli-ux-2.0.21.tgz',
+1000 verbose addRemoteTarball   'a7231097af95356e79f5d6a380f04be889703083' ]
+1001 info retry fetch attempt 1 at 14:59:59
+1002 info attempt registry request try #1 at 14:59:59
+1003 http fetch GET http://intersinopia:4873/cli-ux/-/cli-ux-2.0.21.tgz
+1004 verbose request using bearer token for auth
+1005 http 200 http://intersinopia:4873/netrc-parser
+1006 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1006 verbose headers   'content-type': 'application/json; charset=utf-8',
+1006 verbose headers   etag: '"9cc511dda4aa97d9e6274633fd0934da"',
+1006 verbose headers   vary: 'Accept-Encoding',
+1006 verbose headers   'content-encoding': 'gzip',
+1006 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1006 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1006 verbose headers   connection: 'keep-alive',
+1006 verbose headers   'transfer-encoding': 'chunked' }
+1007 silly get cb [ 200,
+1007 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1007 silly get     'content-type': 'application/json; charset=utf-8',
+1007 silly get     etag: '"9cc511dda4aa97d9e6274633fd0934da"',
+1007 silly get     vary: 'Accept-Encoding',
+1007 silly get     'content-encoding': 'gzip',
+1007 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1007 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1007 silly get     connection: 'keep-alive',
+1007 silly get     'transfer-encoding': 'chunked' } ]
+1008 verbose get saving netrc-parser to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\netrc-parser\.cache.json
+1009 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1010 silly resolveWithNewModule netrc-parser@3.1.0 checking installable status
+1011 silly cache add args [ 'netrc-parser@3.1.0', null ]
+1012 verbose cache add spec netrc-parser@3.1.0
+1013 silly cache add parsed spec Result {
+1013 silly cache add   raw: 'netrc-parser@3.1.0',
+1013 silly cache add   scope: null,
+1013 silly cache add   escapedName: 'netrc-parser',
+1013 silly cache add   name: 'netrc-parser',
+1013 silly cache add   rawSpec: '3.1.0',
+1013 silly cache add   spec: '3.1.0',
+1013 silly cache add   type: 'version' }
+1014 silly addNamed netrc-parser@3.1.0
+1015 verbose addNamed "3.1.0" is a plain semver version for netrc-parser
+1016 silly mapToRegistry name netrc-parser
+1017 silly mapToRegistry using default registry
+1018 silly mapToRegistry registry http://intersinopia:4873/
+1019 silly mapToRegistry data Result {
+1019 silly mapToRegistry   raw: 'netrc-parser',
+1019 silly mapToRegistry   scope: null,
+1019 silly mapToRegistry   escapedName: 'netrc-parser',
+1019 silly mapToRegistry   name: 'netrc-parser',
+1019 silly mapToRegistry   rawSpec: '',
+1019 silly mapToRegistry   spec: 'latest',
+1019 silly mapToRegistry   type: 'tag' }
+1020 silly mapToRegistry uri http://intersinopia:4873/netrc-parser
+1021 verbose addNameVersion registry:http://intersinopia:4873/netrc-parser not in flight; fetching
+1022 verbose get http://intersinopia:4873/netrc-parser not expired, no request
+1023 silly mapToRegistry name netrc-parser
+1024 silly mapToRegistry using default registry
+1025 silly mapToRegistry registry http://intersinopia:4873/
+1026 silly mapToRegistry data Result {
+1026 silly mapToRegistry   raw: 'netrc-parser',
+1026 silly mapToRegistry   scope: null,
+1026 silly mapToRegistry   escapedName: 'netrc-parser',
+1026 silly mapToRegistry   name: 'netrc-parser',
+1026 silly mapToRegistry   rawSpec: '',
+1026 silly mapToRegistry   spec: 'latest',
+1026 silly mapToRegistry   type: 'tag' }
+1027 silly mapToRegistry uri http://intersinopia:4873/netrc-parser
+1028 verbose addRemoteTarball http://intersinopia:4873/netrc-parser/-/netrc-parser-3.1.0.tgz not in flight; adding
+1029 verbose addRemoteTarball [ 'http://intersinopia:4873/netrc-parser/-/netrc-parser-3.1.0.tgz',
+1029 verbose addRemoteTarball   'fefaadbe6de86676195709718c40e40e4733ca91' ]
+1030 info retry fetch attempt 1 at 14:59:59
+1031 info attempt registry request try #1 at 14:59:59
+1032 http fetch GET http://intersinopia:4873/netrc-parser/-/netrc-parser-3.1.0.tgz
+1033 verbose request using bearer token for auth
+1034 http 200 http://intersinopia:4873/tslib
+1035 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1035 verbose headers   'content-type': 'application/json; charset=utf-8',
+1035 verbose headers   etag: '"2810cf2c9c677f4586cac43f276ec8ca"',
+1035 verbose headers   vary: 'Accept-Encoding',
+1035 verbose headers   'content-encoding': 'gzip',
+1035 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1035 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1035 verbose headers   connection: 'keep-alive',
+1035 verbose headers   'transfer-encoding': 'chunked' }
+1036 silly get cb [ 200,
+1036 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1036 silly get     'content-type': 'application/json; charset=utf-8',
+1036 silly get     etag: '"2810cf2c9c677f4586cac43f276ec8ca"',
+1036 silly get     vary: 'Accept-Encoding',
+1036 silly get     'content-encoding': 'gzip',
+1036 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1036 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1036 silly get     connection: 'keep-alive',
+1036 silly get     'transfer-encoding': 'chunked' } ]
+1037 verbose get saving tslib to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\tslib\.cache.json
+1038 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1039 http 200 http://intersinopia:4873/debug
+1040 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1040 verbose headers   'content-type': 'application/json; charset=utf-8',
+1040 verbose headers   etag: '"a4f40d346d7a2a3c4418f29f236bdd9f"',
+1040 verbose headers   vary: 'Accept-Encoding',
+1040 verbose headers   'content-encoding': 'gzip',
+1040 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1040 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1040 verbose headers   connection: 'keep-alive',
+1040 verbose headers   'transfer-encoding': 'chunked' }
+1041 silly get cb [ 200,
+1041 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1041 silly get     'content-type': 'application/json; charset=utf-8',
+1041 silly get     etag: '"a4f40d346d7a2a3c4418f29f236bdd9f"',
+1041 silly get     vary: 'Accept-Encoding',
+1041 silly get     'content-encoding': 'gzip',
+1041 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1041 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1041 silly get     connection: 'keep-alive',
+1041 silly get     'transfer-encoding': 'chunked' } ]
+1042 verbose get saving debug to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\debug\.cache.json
+1043 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1044 http 200 http://intersinopia:4873/tar-fs
+1045 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1045 verbose headers   'content-type': 'application/json; charset=utf-8',
+1045 verbose headers   etag: '"98030bf65d4613faa4b5b62cc5b970ed"',
+1045 verbose headers   vary: 'Accept-Encoding',
+1045 verbose headers   'content-encoding': 'gzip',
+1045 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1045 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1045 verbose headers   connection: 'keep-alive',
+1045 verbose headers   'transfer-encoding': 'chunked' }
+1046 silly get cb [ 200,
+1046 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1046 silly get     'content-type': 'application/json; charset=utf-8',
+1046 silly get     etag: '"98030bf65d4613faa4b5b62cc5b970ed"',
+1046 silly get     vary: 'Accept-Encoding',
+1046 silly get     'content-encoding': 'gzip',
+1046 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1046 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1046 silly get     connection: 'keep-alive',
+1046 silly get     'transfer-encoding': 'chunked' } ]
+1047 verbose get saving tar-fs to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\tar-fs\.cache.json
+1048 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1049 silly resolveWithNewModule debug@3.1.0 checking installable status
+1050 silly cache add args [ 'debug@3.1.0', null ]
+1051 verbose cache add spec debug@3.1.0
+1052 silly cache add parsed spec Result {
+1052 silly cache add   raw: 'debug@3.1.0',
+1052 silly cache add   scope: null,
+1052 silly cache add   escapedName: 'debug',
+1052 silly cache add   name: 'debug',
+1052 silly cache add   rawSpec: '3.1.0',
+1052 silly cache add   spec: '3.1.0',
+1052 silly cache add   type: 'version' }
+1053 silly addNamed debug@3.1.0
+1054 verbose addNamed "3.1.0" is a plain semver version for debug
+1055 silly mapToRegistry name debug
+1056 silly mapToRegistry using default registry
+1057 silly mapToRegistry registry http://intersinopia:4873/
+1058 silly mapToRegistry data Result {
+1058 silly mapToRegistry   raw: 'debug',
+1058 silly mapToRegistry   scope: null,
+1058 silly mapToRegistry   escapedName: 'debug',
+1058 silly mapToRegistry   name: 'debug',
+1058 silly mapToRegistry   rawSpec: '',
+1058 silly mapToRegistry   spec: 'latest',
+1058 silly mapToRegistry   type: 'tag' }
+1059 silly mapToRegistry uri http://intersinopia:4873/debug
+1060 verbose addNameVersion registry:http://intersinopia:4873/debug not in flight; fetching
+1061 http fetch 200 http://intersinopia:4873/cli-flags/-/cli-flags-2.0.7.tgz
+1062 http 200 http://intersinopia:4873/uuid
+1063 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1063 verbose headers   'content-type': 'application/json; charset=utf-8',
+1063 verbose headers   etag: '"0f8bc7064ba69b4342d14fdfe786cd85"',
+1063 verbose headers   vary: 'Accept-Encoding',
+1063 verbose headers   'content-encoding': 'gzip',
+1063 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1063 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1063 verbose headers   connection: 'keep-alive',
+1063 verbose headers   'transfer-encoding': 'chunked' }
+1064 silly get cb [ 200,
+1064 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1064 silly get     'content-type': 'application/json; charset=utf-8',
+1064 silly get     etag: '"0f8bc7064ba69b4342d14fdfe786cd85"',
+1064 silly get     vary: 'Accept-Encoding',
+1064 silly get     'content-encoding': 'gzip',
+1064 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1064 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1064 silly get     connection: 'keep-alive',
+1064 silly get     'transfer-encoding': 'chunked' } ]
+1065 verbose get saving uuid to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\uuid\.cache.json
+1066 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1067 silly resolveWithNewModule tslib@1.9.0 checking installable status
+1068 silly cache add args [ 'tslib@^1.9.0', null ]
+1069 verbose cache add spec tslib@^1.9.0
+1070 silly cache add parsed spec Result {
+1070 silly cache add   raw: 'tslib@^1.9.0',
+1070 silly cache add   scope: null,
+1070 silly cache add   escapedName: 'tslib',
+1070 silly cache add   name: 'tslib',
+1070 silly cache add   rawSpec: '^1.9.0',
+1070 silly cache add   spec: '>=1.9.0 <2.0.0',
+1070 silly cache add   type: 'range' }
+1071 silly addNamed tslib@>=1.9.0 <2.0.0
+1072 verbose addNamed ">=1.9.0 <2.0.0" is a valid semver range for tslib
+1073 silly addNameRange { name: 'tslib', range: '>=1.9.0 <2.0.0', hasData: false }
+1074 silly mapToRegistry name tslib
+1075 silly mapToRegistry using default registry
+1076 silly mapToRegistry registry http://intersinopia:4873/
+1077 silly mapToRegistry data Result {
+1077 silly mapToRegistry   raw: 'tslib',
+1077 silly mapToRegistry   scope: null,
+1077 silly mapToRegistry   escapedName: 'tslib',
+1077 silly mapToRegistry   name: 'tslib',
+1077 silly mapToRegistry   rawSpec: '',
+1077 silly mapToRegistry   spec: 'latest',
+1077 silly mapToRegistry   type: 'tag' }
+1078 silly mapToRegistry uri http://intersinopia:4873/tslib
+1079 verbose addNameRange registry:http://intersinopia:4873/tslib not in flight; fetching
+1080 verbose get http://intersinopia:4873/debug not expired, no request
+1081 verbose get http://intersinopia:4873/tslib not expired, no request
+1082 silly addNameRange number 2 { name: 'tslib', range: '>=1.9.0 <2.0.0', hasData: true }
+1083 silly addNameRange versions [ 'tslib',
+1083 silly addNameRange   [ '0.0.1-security',
+1083 silly addNameRange     '1.0.0',
+1083 silly addNameRange     '1.1.0',
+1083 silly addNameRange     '1.2.0',
+1083 silly addNameRange     '1.3.0',
+1083 silly addNameRange     '1.4.0',
+1083 silly addNameRange     '1.5.0',
+1083 silly addNameRange     '1.6.0',
+1083 silly addNameRange     '1.6.1',
+1083 silly addNameRange     '1.7.0',
+1083 silly addNameRange     '1.7.1',
+1083 silly addNameRange     '1.8.0',
+1083 silly addNameRange     '1.8.1',
+1083 silly addNameRange     '1.9.0' ] ]
+1084 silly addNamed tslib@1.9.0
+1085 verbose addNamed "1.9.0" is a plain semver version for tslib
+1086 http fetch 200 http://intersinopia:4873/heroku-cli-addons/-/heroku-cli-addons-1.2.26.tgz
+1087 http fetch 200 http://intersinopia:4873/heroku-certs/-/heroku-certs-1.1.45.tgz
+1088 silly fetchAndShaCheck shasum 215b3f8d911142c3e4833eaf7f2f96ab97fd22cf
+1089 http fetch 200 http://intersinopia:4873/heroku-cli-status/-/heroku-cli-status-5.0.0.tgz
+1090 silly mapToRegistry name tslib
+1091 silly mapToRegistry using default registry
+1092 silly mapToRegistry registry http://intersinopia:4873/
+1093 silly mapToRegistry data Result {
+1093 silly mapToRegistry   raw: 'tslib',
+1093 silly mapToRegistry   scope: null,
+1093 silly mapToRegistry   escapedName: 'tslib',
+1093 silly mapToRegistry   name: 'tslib',
+1093 silly mapToRegistry   rawSpec: '',
+1093 silly mapToRegistry   spec: 'latest',
+1093 silly mapToRegistry   type: 'tag' }
+1094 silly mapToRegistry uri http://intersinopia:4873/tslib
+1095 verbose addRemoteTarball http://intersinopia:4873/tslib/-/tslib-1.9.0.tgz not in flight; adding
+1096 verbose addRemoteTarball [ 'http://intersinopia:4873/tslib/-/tslib-1.9.0.tgz',
+1096 verbose addRemoteTarball   'e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8' ]
+1097 silly resolveWithNewModule tar-fs@1.16.0 checking installable status
+1098 silly cache add args [ 'tar-fs@^1.16.0', null ]
+1099 verbose cache add spec tar-fs@^1.16.0
+1100 silly cache add parsed spec Result {
+1100 silly cache add   raw: 'tar-fs@^1.16.0',
+1100 silly cache add   scope: null,
+1100 silly cache add   escapedName: 'tar-fs',
+1100 silly cache add   name: 'tar-fs',
+1100 silly cache add   rawSpec: '^1.16.0',
+1100 silly cache add   spec: '>=1.16.0 <2.0.0',
+1100 silly cache add   type: 'range' }
+1101 silly addNamed tar-fs@>=1.16.0 <2.0.0
+1102 verbose addNamed ">=1.16.0 <2.0.0" is a valid semver range for tar-fs
+1103 silly addNameRange { name: 'tar-fs', range: '>=1.16.0 <2.0.0', hasData: false }
+1104 silly mapToRegistry name tar-fs
+1105 silly mapToRegistry using default registry
+1106 silly mapToRegistry registry http://intersinopia:4873/
+1107 silly mapToRegistry data Result {
+1107 silly mapToRegistry   raw: 'tar-fs',
+1107 silly mapToRegistry   scope: null,
+1107 silly mapToRegistry   escapedName: 'tar-fs',
+1107 silly mapToRegistry   name: 'tar-fs',
+1107 silly mapToRegistry   rawSpec: '',
+1107 silly mapToRegistry   spec: 'latest',
+1107 silly mapToRegistry   type: 'tag' }
+1108 silly mapToRegistry uri http://intersinopia:4873/tar-fs
+1109 verbose addNameRange registry:http://intersinopia:4873/tar-fs not in flight; fetching
+1110 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\cli-flags\-\cli-flags-2.0.7.tgz not in flight; adding
+1111 verbose addTmpTarball already have metadata; skipping unpack for cli-flags@2.0.7
+1112 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1113 http 200 http://intersinopia:4873/execa
+1114 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1114 verbose headers   'content-type': 'application/json; charset=utf-8',
+1114 verbose headers   etag: '"2f6bab4e3daf7dc378dc003094f21ce1"',
+1114 verbose headers   vary: 'Accept-Encoding',
+1114 verbose headers   'content-encoding': 'gzip',
+1114 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1114 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1114 verbose headers   connection: 'keep-alive',
+1114 verbose headers   'transfer-encoding': 'chunked' }
+1115 silly get cb [ 200,
+1115 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1115 silly get     'content-type': 'application/json; charset=utf-8',
+1115 silly get     etag: '"2f6bab4e3daf7dc378dc003094f21ce1"',
+1115 silly get     vary: 'Accept-Encoding',
+1115 silly get     'content-encoding': 'gzip',
+1115 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1115 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1115 silly get     connection: 'keep-alive',
+1115 silly get     'transfer-encoding': 'chunked' } ]
+1116 verbose get saving execa to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\execa\.cache.json
+1117 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1118 silly fetchAndShaCheck shasum f11c1d404e0863b532119802e9dd887c54dd9af4
+1119 info retry fetch attempt 1 at 14:59:59
+1120 info attempt registry request try #1 at 14:59:59
+1121 http fetch GET http://intersinopia:4873/tslib/-/tslib-1.9.0.tgz
+1122 verbose request using bearer token for auth
+1123 http fetch 200 http://intersinopia:4873/heroku-container-registry/-/heroku-container-registry-4.4.7.tgz
+1124 http fetch 200 http://intersinopia:4873/heroku-apps/-/heroku-apps-2.4.22.tgz
+1125 silly resolveWithNewModule uuid@3.2.1 checking installable status
+1126 silly cache add args [ 'uuid@^3.2.1', null ]
+1127 verbose cache add spec uuid@^3.2.1
+1128 silly cache add parsed spec Result {
+1128 silly cache add   raw: 'uuid@^3.2.1',
+1128 silly cache add   scope: null,
+1128 silly cache add   escapedName: 'uuid',
+1128 silly cache add   name: 'uuid',
+1128 silly cache add   rawSpec: '^3.2.1',
+1128 silly cache add   spec: '>=3.2.1 <4.0.0',
+1128 silly cache add   type: 'range' }
+1129 silly addNamed uuid@>=3.2.1 <4.0.0
+1130 verbose addNamed ">=3.2.1 <4.0.0" is a valid semver range for uuid
+1131 silly addNameRange { name: 'uuid', range: '>=3.2.1 <4.0.0', hasData: false }
+1132 silly mapToRegistry name uuid
+1133 silly mapToRegistry using default registry
+1134 silly mapToRegistry registry http://intersinopia:4873/
+1135 silly mapToRegistry data Result {
+1135 silly mapToRegistry   raw: 'uuid',
+1135 silly mapToRegistry   scope: null,
+1135 silly mapToRegistry   escapedName: 'uuid',
+1135 silly mapToRegistry   name: 'uuid',
+1135 silly mapToRegistry   rawSpec: '',
+1135 silly mapToRegistry   spec: 'latest',
+1135 silly mapToRegistry   type: 'tag' }
+1136 silly mapToRegistry uri http://intersinopia:4873/uuid
+1137 verbose addNameRange registry:http://intersinopia:4873/uuid not in flight; fetching
+1138 verbose get http://intersinopia:4873/tar-fs not expired, no request
+1139 silly addNameRange number 2 { name: 'tar-fs', range: '>=1.16.0 <2.0.0', hasData: true }
+1140 silly addNameRange versions [ 'tar-fs',
+1140 silly addNameRange   [ '0.1.0',
+1140 silly addNameRange     '0.1.1',
+1140 silly addNameRange     '0.1.2',
+1140 silly addNameRange     '0.1.3',
+1140 silly addNameRange     '0.1.4',
+1140 silly addNameRange     '0.1.5',
+1140 silly addNameRange     '0.1.6',
+1140 silly addNameRange     '0.1.7',
+1140 silly addNameRange     '0.1.8',
+1140 silly addNameRange     '0.2.0',
+1140 silly addNameRange     '0.2.1',
+1140 silly addNameRange     '0.2.2',
+1140 silly addNameRange     '0.3.0',
+1140 silly addNameRange     '0.3.1',
+1140 silly addNameRange     '0.3.2',
+1140 silly addNameRange     '0.3.3',
+1140 silly addNameRange     '0.4.0',
+1140 silly addNameRange     '0.4.1',
+1140 silly addNameRange     '0.5.0',
+1140 silly addNameRange     '0.5.1',
+1140 silly addNameRange     '0.5.2',
+1140 silly addNameRange     '1.0.0',
+1140 silly addNameRange     '1.1.0',
+1140 silly addNameRange     '1.2.0',
+1140 silly addNameRange     '1.3.0',
+1140 silly addNameRange     '1.4.0',
+1140 silly addNameRange     '1.4.1',
+1140 silly addNameRange     '1.4.2',
+1140 silly addNameRange     '1.5.0',
+1140 silly addNameRange     '1.5.1',
+1140 silly addNameRange     '1.6.0',
+1140 silly addNameRange     '1.7.0',
+1140 silly addNameRange     '1.8.0',
+1140 silly addNameRange     '1.8.1',
+1140 silly addNameRange     '1.9.0',
+1140 silly addNameRange     '1.10.0',
+1140 silly addNameRange     '1.11.0',
+1140 silly addNameRange     '1.11.1',
+1140 silly addNameRange     '1.12.0',
+1140 silly addNameRange     '1.13.0',
+1140 silly addNameRange     '1.13.1',
+1140 silly addNameRange     '1.13.2',
+1140 silly addNameRange     '1.14.0',
+1140 silly addNameRange     '1.15.0',
+1140 silly addNameRange     '1.15.1',
+1140 silly addNameRange     '1.15.2',
+1140 silly addNameRange     '1.15.3',
+1140 silly addNameRange     '1.16.0' ] ]
+1141 silly addNamed tar-fs@1.16.0
+1142 verbose addNamed "1.16.0" is a plain semver version for tar-fs
+1143 silly mapToRegistry name tar-fs
+1144 silly mapToRegistry using default registry
+1145 silly mapToRegistry registry http://intersinopia:4873/
+1146 silly mapToRegistry data Result {
+1146 silly mapToRegistry   raw: 'tar-fs',
+1146 silly mapToRegistry   scope: null,
+1146 silly mapToRegistry   escapedName: 'tar-fs',
+1146 silly mapToRegistry   name: 'tar-fs',
+1146 silly mapToRegistry   rawSpec: '',
+1146 silly mapToRegistry   spec: 'latest',
+1146 silly mapToRegistry   type: 'tag' }
+1147 silly mapToRegistry uri http://intersinopia:4873/tar-fs
+1148 verbose addRemoteTarball http://intersinopia:4873/tar-fs/-/tar-fs-1.16.0.tgz not in flight; adding
+1149 verbose addRemoteTarball [ 'http://intersinopia:4873/tar-fs/-/tar-fs-1.16.0.tgz',
+1149 verbose addRemoteTarball   'e877a25acbcc51d8c790da1c57c9cf439817b896' ]
+1150 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-certs\-\heroku-certs-1.1.45.tgz not in flight; adding
+1151 verbose addTmpTarball already have metadata; skipping unpack for heroku-certs@1.1.45
+1152 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1153 silly fetchAndShaCheck shasum 1d99f7efc2775d9da7a0e983e7abb7e2e8f38e11
+1154 http fetch 200 http://intersinopia:4873/heroku-local/-/heroku-local-5.1.21.tgz
+1155 http fetch 200 http://intersinopia:4873/heroku-cli-oauth/-/heroku-cli-oauth-2.1.0.tgz
+1156 silly fetchAndShaCheck shasum 17131b4c5a1906e79de16cf9cac6910ab8e43c4a
+1157 verbose get http://intersinopia:4873/uuid not expired, no request
+1158 silly addNameRange number 2 { name: 'uuid', range: '>=3.2.1 <4.0.0', hasData: true }
+1159 silly addNameRange versions [ 'uuid',
+1159 silly addNameRange   [ '0.0.1',
+1159 silly addNameRange     '0.0.2',
+1159 silly addNameRange     '1.4.0',
+1159 silly addNameRange     '1.4.1',
+1159 silly addNameRange     '1.4.2',
+1159 silly addNameRange     '2.0.0',
+1159 silly addNameRange     '2.0.1',
+1159 silly addNameRange     '2.0.2',
+1159 silly addNameRange     '2.0.3',
+1159 silly addNameRange     '3.0.0',
+1159 silly addNameRange     '3.0.1',
+1159 silly addNameRange     '3.1.0',
+1159 silly addNameRange     '3.2.0',
+1159 silly addNameRange     '3.2.1' ] ]
+1160 silly addNamed uuid@3.2.1
+1161 verbose addNamed "3.2.1" is a plain semver version for uuid
+1162 info retry fetch attempt 1 at 14:59:59
+1163 info attempt registry request try #1 at 14:59:59
+1164 http fetch GET http://intersinopia:4873/tar-fs/-/tar-fs-1.16.0.tgz
+1165 verbose request using bearer token for auth
+1166 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-cli-status\-\heroku-cli-status-5.0.0.tgz not in flight; adding
+1167 verbose addTmpTarball already have metadata; skipping unpack for heroku-cli-status@5.0.0
+1168 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1169 http fetch 200 http://intersinopia:4873/heroku-redis/-/heroku-redis-1.3.0.tgz
+1170 silly fetchAndShaCheck shasum a97ca242b0d5fdd98b497eedfb7e612324a64256
+1171 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-cli-addons\-\heroku-cli-addons-1.2.26.tgz not in flight; adding
+1172 verbose addTmpTarball already have metadata; skipping unpack for heroku-cli-addons@1.2.26
+1173 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1174 silly cache afterAdd debug@3.1.0
+1175 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\debug\3.1.0\package\package.json not in flight; writing
+1176 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1177 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-container-registry\-\heroku-container-registry-4.4.7.tgz not in flight; adding
+1178 verbose addTmpTarball already have metadata; skipping unpack for heroku-container-registry@4.4.7
+1179 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1180 silly resolveWithNewModule execa@0.9.0 checking installable status
+1181 silly cache add args [ 'execa@^0.9.0', null ]
+1182 verbose cache add spec execa@^0.9.0
+1183 silly cache add parsed spec Result {
+1183 silly cache add   raw: 'execa@^0.9.0',
+1183 silly cache add   scope: null,
+1183 silly cache add   escapedName: 'execa',
+1183 silly cache add   name: 'execa',
+1183 silly cache add   rawSpec: '^0.9.0',
+1183 silly cache add   spec: '>=0.9.0 <0.10.0',
+1183 silly cache add   type: 'range' }
+1184 silly addNamed execa@>=0.9.0 <0.10.0
+1185 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for execa
+1186 silly addNameRange { name: 'execa', range: '>=0.9.0 <0.10.0', hasData: false }
+1187 silly mapToRegistry name execa
+1188 silly mapToRegistry using default registry
+1189 silly mapToRegistry registry http://intersinopia:4873/
+1190 silly mapToRegistry data Result {
+1190 silly mapToRegistry   raw: 'execa',
+1190 silly mapToRegistry   scope: null,
+1190 silly mapToRegistry   escapedName: 'execa',
+1190 silly mapToRegistry   name: 'execa',
+1190 silly mapToRegistry   rawSpec: '',
+1190 silly mapToRegistry   spec: 'latest',
+1190 silly mapToRegistry   type: 'tag' }
+1191 silly mapToRegistry uri http://intersinopia:4873/execa
+1192 verbose addNameRange registry:http://intersinopia:4873/execa not in flight; fetching
+1193 silly fetchAndShaCheck shasum de7f366baf450a54651c2761f74df1ee2df460c5
+1194 http fetch 200 http://intersinopia:4873/heroku-orgs/-/heroku-orgs-1.7.1.tgz
+1195 silly fetchAndShaCheck shasum e38fdf7307e010fa5b8612143f7ba4b97ed2830c
+1196 http fetch 200 http://intersinopia:4873/heroku-ps-exec/-/heroku-ps-exec-2.3.1.tgz
+1197 silly cache afterAdd cli-flags@2.0.7
+1198 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\cli-flags\2.0.7\package\package.json not in flight; writing
+1199 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1200 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-local\-\heroku-local-5.1.21.tgz not in flight; adding
+1201 verbose addTmpTarball already have metadata; skipping unpack for heroku-local@5.1.21
+1202 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1203 http fetch 200 http://intersinopia:4873/tar-fs/-/tar-fs-1.16.0.tgz
+1204 http fetch 200 http://intersinopia:4873/heroku-webhooks/-/heroku-webhooks-1.1.0.tgz
+1205 http fetch 200 http://intersinopia:4873/heroku-pg/-/heroku-pg-2.9.0.tgz
+1206 http fetch 200 http://intersinopia:4873/http-call/-/http-call-4.0.8.tgz
+1207 http fetch 200 http://intersinopia:4873/ts-lodash/-/ts-lodash-4.0.11.tgz
+1208 http fetch 200 http://intersinopia:4873/cli-ux/-/cli-ux-2.0.21.tgz
+1209 silly fetchAndShaCheck shasum 738331c34311d7f872e9f52332363e8811bd108b
+1210 http fetch 200 http://intersinopia:4873/heroku-spaces/-/heroku-spaces-2.11.0.tgz
+1211 silly fetchAndShaCheck shasum ed2663c6d526413180e1c3e96fb607948ca0807a
+1212 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-cli-oauth\-\heroku-cli-oauth-2.1.0.tgz not in flight; adding
+1213 verbose addTmpTarball already have metadata; skipping unpack for heroku-cli-oauth@2.1.0
+1214 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1215 verbose get http://intersinopia:4873/execa not expired, no request
+1216 silly addNameRange number 2 { name: 'execa', range: '>=0.9.0 <0.10.0', hasData: true }
+1217 silly addNameRange versions [ 'execa',
+1217 silly addNameRange   [ '0.1.0',
+1217 silly addNameRange     '0.1.1',
+1217 silly addNameRange     '0.2.0',
+1217 silly addNameRange     '0.2.1',
+1217 silly addNameRange     '0.2.2',
+1217 silly addNameRange     '0.3.0',
+1217 silly addNameRange     '0.4.0',
+1217 silly addNameRange     '0.5.0',
+1217 silly addNameRange     '0.5.1',
+1217 silly addNameRange     '0.6.0',
+1217 silly addNameRange     '0.6.1',
+1217 silly addNameRange     '0.6.2',
+1217 silly addNameRange     '0.6.3',
+1217 silly addNameRange     '0.7.0',
+1217 silly addNameRange     '0.8.0',
+1217 silly addNameRange     '0.9.0' ] ]
+1218 silly addNamed execa@0.9.0
+1219 verbose addNamed "0.9.0" is a plain semver version for execa
+1220 http fetch 200 http://intersinopia:4873/tslib/-/tslib-1.9.0.tgz
+1221 silly fetchAndShaCheck shasum ca8bdbccf7236f4ddc14d32c54273567d2bd8208
+1222 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-redis\-\heroku-redis-1.3.0.tgz not in flight; adding
+1223 verbose addTmpTarball already have metadata; skipping unpack for heroku-redis@1.3.0
+1224 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1225 silly mapToRegistry name execa
+1226 silly mapToRegistry using default registry
+1227 silly mapToRegistry registry http://intersinopia:4873/
+1228 silly mapToRegistry data Result {
+1228 silly mapToRegistry   raw: 'execa',
+1228 silly mapToRegistry   scope: null,
+1228 silly mapToRegistry   escapedName: 'execa',
+1228 silly mapToRegistry   name: 'execa',
+1228 silly mapToRegistry   rawSpec: '',
+1228 silly mapToRegistry   spec: 'latest',
+1228 silly mapToRegistry   type: 'tag' }
+1229 silly mapToRegistry uri http://intersinopia:4873/execa
+1230 verbose addRemoteTarball http://intersinopia:4873/execa/-/execa-0.9.0.tgz not in flight; adding
+1231 verbose addRemoteTarball [ 'http://intersinopia:4873/execa/-/execa-0.9.0.tgz',
+1231 verbose addRemoteTarball   'adb7ce62cf985071f60580deb4a88b9e34712d01' ]
+1232 http fetch 200 http://intersinopia:4873/netrc-parser/-/netrc-parser-3.1.0.tgz
+1233 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-apps\-\heroku-apps-2.4.22.tgz not in flight; adding
+1234 verbose addTmpTarball already have metadata; skipping unpack for heroku-apps@2.4.22
+1235 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1236 http 200 http://intersinopia:4873/semver
+1237 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1237 verbose headers   'content-type': 'application/json; charset=utf-8',
+1237 verbose headers   etag: '"41ad047488ac006fb819ac6aabc8d806"',
+1237 verbose headers   vary: 'Accept-Encoding',
+1237 verbose headers   'content-encoding': 'gzip',
+1237 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1237 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1237 verbose headers   connection: 'keep-alive',
+1237 verbose headers   'transfer-encoding': 'chunked' }
+1238 silly get cb [ 200,
+1238 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1238 silly get     'content-type': 'application/json; charset=utf-8',
+1238 silly get     etag: '"41ad047488ac006fb819ac6aabc8d806"',
+1238 silly get     vary: 'Accept-Encoding',
+1238 silly get     'content-encoding': 'gzip',
+1238 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1238 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1238 silly get     connection: 'keep-alive',
+1238 silly get     'transfer-encoding': 'chunked' } ]
+1239 verbose get saving semver to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\semver\.cache.json
+1240 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1241 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\debug\3.1.0\package\package.json written
+1242 silly fetchAndShaCheck shasum 282137897a5bf87304955f54a07d1b4a27c47d2e
+1243 silly cache afterAdd heroku-certs@1.1.45
+1244 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-certs\1.1.45\package\package.json not in flight; writing
+1245 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1246 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-orgs\-\heroku-orgs-1.7.1.tgz not in flight; adding
+1247 verbose addTmpTarball already have metadata; skipping unpack for heroku-orgs@1.7.1
+1248 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1249 silly cache afterAdd uuid@3.2.1
+1250 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\uuid\3.2.1\package\package.json not in flight; writing
+1251 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1252 silly fetchAndShaCheck shasum b475633865dcfbaa18c9fb7080da3b84269c0858
+1253 silly fetchAndShaCheck shasum e877a25acbcc51d8c790da1c57c9cf439817b896
+1254 silly fetchAndShaCheck shasum fd0207764958a3f1238bb3344ff912b32ddfa64a
+1255 silly fetchAndShaCheck shasum f668e2ad4b6cb3bcbeceb894cf0a8cde48b3cd85
+1256 silly fetchAndShaCheck shasum a7231097af95356e79f5d6a380f04be889703083
+1257 info retry fetch attempt 1 at 14:59:59
+1258 info attempt registry request try #1 at 14:59:59
+1259 http fetch GET http://intersinopia:4873/execa/-/execa-0.9.0.tgz
+1260 verbose request using bearer token for auth
+1261 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\cli-flags\2.0.7\package\package.json written
+1262 silly fetchAndShaCheck shasum 056789b0114a45813dc0b4a4e135752e98b94d49
+1263 silly cache afterAdd heroku-cli-status@5.0.0
+1264 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli-status\5.0.0\package\package.json not in flight; writing
+1265 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1266 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-ps-exec\-\heroku-ps-exec-2.3.1.tgz not in flight; adding
+1267 verbose addTmpTarball already have metadata; skipping unpack for heroku-ps-exec@2.3.1
+1268 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1269 silly fetchAndShaCheck shasum e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8
+1270 silly fetchAndShaCheck shasum d9773b6f4e90a6b62da5a1988112511166462bd4
+1271 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-spaces\-\heroku-spaces-2.11.0.tgz not in flight; adding
+1272 verbose addTmpTarball already have metadata; skipping unpack for heroku-spaces@2.11.0
+1273 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1274 silly cache afterAdd heroku-cli-addons@1.2.26
+1275 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli-addons\1.2.26\package\package.json not in flight; writing
+1276 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1277 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\tar-fs\-\tar-fs-1.16.0.tgz not in flight; adding
+1278 verbose addTmpTarball already have metadata; skipping unpack for tar-fs@1.16.0
+1279 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1280 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\http-call\-\http-call-4.0.8.tgz not in flight; adding
+1281 verbose addTmpTarball already have metadata; skipping unpack for http-call@4.0.8
+1282 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1283 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\ts-lodash\-\ts-lodash-4.0.11.tgz not in flight; adding
+1284 verbose addTmpTarball already have metadata; skipping unpack for ts-lodash@4.0.11
+1285 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1286 silly fetchAndShaCheck shasum fefaadbe6de86676195709718c40e40e4733ca91
+1287 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\cli-ux\-\cli-ux-2.0.21.tgz not in flight; adding
+1288 verbose addTmpTarball already have metadata; skipping unpack for cli-ux@2.0.21
+1289 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1290 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-pg\-\heroku-pg-2.9.0.tgz not in flight; adding
+1291 verbose addTmpTarball already have metadata; skipping unpack for heroku-pg@2.9.0
+1292 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1293 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\tslib\-\tslib-1.9.0.tgz not in flight; adding
+1294 verbose addTmpTarball already have metadata; skipping unpack for tslib@1.9.0
+1295 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1296 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-certs\1.1.45\package\package.json written
+1297 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-webhooks\-\heroku-webhooks-1.1.0.tgz not in flight; adding
+1298 verbose addTmpTarball already have metadata; skipping unpack for heroku-webhooks@1.1.0
+1299 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1300 silly cache afterAdd heroku-container-registry@4.4.7
+1301 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-container-registry\4.4.7\package\package.json not in flight; writing
+1302 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1303 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\netrc-parser\-\netrc-parser-3.1.0.tgz not in flight; adding
+1304 verbose addTmpTarball already have metadata; skipping unpack for netrc-parser@3.1.0
+1305 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1306 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\uuid\3.2.1\package\package.json written
+1307 http fetch 200 http://intersinopia:4873/execa/-/execa-0.9.0.tgz
+1308 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli-status\5.0.0\package\package.json written
+1309 silly cache afterAdd heroku-local@5.1.21
+1310 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-local\5.1.21\package\package.json not in flight; writing
+1311 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1312 http 200 http://intersinopia:4873/heroku-ci
+1313 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1313 verbose headers   'content-type': 'application/json; charset=utf-8',
+1313 verbose headers   etag: '"ae5fb3584035bd471dcaf6f56e187da4"',
+1313 verbose headers   vary: 'Accept-Encoding',
+1313 verbose headers   'content-encoding': 'gzip',
+1313 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1313 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1313 verbose headers   connection: 'keep-alive',
+1313 verbose headers   'transfer-encoding': 'chunked' }
+1314 silly get cb [ 200,
+1314 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1314 silly get     'content-type': 'application/json; charset=utf-8',
+1314 silly get     etag: '"ae5fb3584035bd471dcaf6f56e187da4"',
+1314 silly get     vary: 'Accept-Encoding',
+1314 silly get     'content-encoding': 'gzip',
+1314 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1314 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1314 silly get     connection: 'keep-alive',
+1314 silly get     'transfer-encoding': 'chunked' } ]
+1315 verbose get saving heroku-ci to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\heroku-ci\.cache.json
+1316 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1317 silly resolveWithNewModule semver@5.5.0 checking installable status
+1318 silly cache add args [ 'semver@5.5.0', null ]
+1319 verbose cache add spec semver@5.5.0
+1320 silly cache add parsed spec Result {
+1320 silly cache add   raw: 'semver@5.5.0',
+1320 silly cache add   scope: null,
+1320 silly cache add   escapedName: 'semver',
+1320 silly cache add   name: 'semver',
+1320 silly cache add   rawSpec: '5.5.0',
+1320 silly cache add   spec: '5.5.0',
+1320 silly cache add   type: 'version' }
+1321 silly addNamed semver@5.5.0
+1322 verbose addNamed "5.5.0" is a plain semver version for semver
+1323 silly mapToRegistry name semver
+1324 silly mapToRegistry using default registry
+1325 silly mapToRegistry registry http://intersinopia:4873/
+1326 silly mapToRegistry data Result {
+1326 silly mapToRegistry   raw: 'semver',
+1326 silly mapToRegistry   scope: null,
+1326 silly mapToRegistry   escapedName: 'semver',
+1326 silly mapToRegistry   name: 'semver',
+1326 silly mapToRegistry   rawSpec: '',
+1326 silly mapToRegistry   spec: 'latest',
+1326 silly mapToRegistry   type: 'tag' }
+1327 silly mapToRegistry uri http://intersinopia:4873/semver
+1328 verbose addNameVersion registry:http://intersinopia:4873/semver not in flight; fetching
+1329 silly cache afterAdd heroku-cli-oauth@2.1.0
+1330 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli-oauth\2.1.0\package\package.json not in flight; writing
+1331 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1332 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli-addons\1.2.26\package\package.json written
+1333 silly cache afterAdd heroku-redis@1.3.0
+1334 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-redis\1.3.0\package\package.json not in flight; writing
+1335 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1336 http 200 http://intersinopia:4873/fs-extra
+1337 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1337 verbose headers   'content-type': 'application/json; charset=utf-8',
+1337 verbose headers   etag: '"f2254d10fc2259f8a87f1aeee0d9997f"',
+1337 verbose headers   vary: 'Accept-Encoding',
+1337 verbose headers   'content-encoding': 'gzip',
+1337 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1337 verbose headers   date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1337 verbose headers   connection: 'keep-alive',
+1337 verbose headers   'transfer-encoding': 'chunked' }
+1338 silly get cb [ 200,
+1338 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1338 silly get     'content-type': 'application/json; charset=utf-8',
+1338 silly get     etag: '"f2254d10fc2259f8a87f1aeee0d9997f"',
+1338 silly get     vary: 'Accept-Encoding',
+1338 silly get     'content-encoding': 'gzip',
+1338 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+1338 silly get     date: 'Tue, 06 Mar 2018 14:01:16 GMT',
+1338 silly get     connection: 'keep-alive',
+1338 silly get     'transfer-encoding': 'chunked' } ]
+1339 verbose get saving fs-extra to C:\Users\fdm74345\AppData\Roaming\npm-cache\intersinopia_4873\fs-extra\.cache.json
+1340 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1341 silly cache afterAdd heroku-apps@2.4.22
+1342 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-apps\2.4.22\package\package.json not in flight; writing
+1343 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1344 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-container-registry\4.4.7\package\package.json written
+1345 silly cache afterAdd heroku-orgs@1.7.1
+1346 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-orgs\1.7.1\package\package.json not in flight; writing
+1347 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1348 verbose get http://intersinopia:4873/semver not expired, no request
+1349 silly cache afterAdd tar-fs@1.16.0
+1350 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\tar-fs\1.16.0\package\package.json not in flight; writing
+1351 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1352 silly fetchAndShaCheck shasum adb7ce62cf985071f60580deb4a88b9e34712d01
+1353 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-local\5.1.21\package\package.json written
+1354 silly cache afterAdd heroku-ps-exec@2.3.1
+1355 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-ps-exec\2.3.1\package\package.json not in flight; writing
+1356 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1357 silly cache afterAdd heroku-spaces@2.11.0
+1358 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-spaces\2.11.0\package\package.json not in flight; writing
+1359 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1360 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-cli-oauth\2.1.0\package\package.json written
+1361 silly cache afterAdd http-call@4.0.8
+1362 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\http-call\4.0.8\package\package.json not in flight; writing
+1363 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1364 silly cache afterAdd ts-lodash@4.0.11
+1365 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\ts-lodash\4.0.11\package\package.json not in flight; writing
+1366 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1367 silly cache afterAdd cli-ux@2.0.21
+1368 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\cli-ux\2.0.21\package\package.json not in flight; writing
+1369 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1370 silly cache afterAdd heroku-pg@2.9.0
+1371 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-pg\2.9.0\package\package.json not in flight; writing
+1372 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1373 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\execa\-\execa-0.9.0.tgz not in flight; adding
+1374 verbose addTmpTarball already have metadata; skipping unpack for execa@0.9.0
+1375 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1376 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-redis\1.3.0\package\package.json written
+1377 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-apps\2.4.22\package\package.json written
+1378 silly cache afterAdd tslib@1.9.0
+1379 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\tslib\1.9.0\package\package.json not in flight; writing
+1380 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1381 silly cache afterAdd heroku-webhooks@1.1.0
+1382 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-webhooks\1.1.0\package\package.json not in flight; writing
+1383 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1384 silly resolveWithNewModule heroku-ci@1.9.5 checking installable status
+1385 silly cache add args [ 'heroku-ci@1.9.5', null ]
+1386 verbose cache add spec heroku-ci@1.9.5
+1387 silly cache add parsed spec Result {
+1387 silly cache add   raw: 'heroku-ci@1.9.5',
+1387 silly cache add   scope: null,
+1387 silly cache add   escapedName: 'heroku-ci',
+1387 silly cache add   name: 'heroku-ci',
+1387 silly cache add   rawSpec: '1.9.5',
+1387 silly cache add   spec: '1.9.5',
+1387 silly cache add   type: 'version' }
+1388 silly addNamed heroku-ci@1.9.5
+1389 verbose addNamed "1.9.5" is a plain semver version for heroku-ci
+1390 silly mapToRegistry name heroku-ci
+1391 silly mapToRegistry using default registry
+1392 silly mapToRegistry registry http://intersinopia:4873/
+1393 silly mapToRegistry data Result {
+1393 silly mapToRegistry   raw: 'heroku-ci',
+1393 silly mapToRegistry   scope: null,
+1393 silly mapToRegistry   escapedName: 'heroku-ci',
+1393 silly mapToRegistry   name: 'heroku-ci',
+1393 silly mapToRegistry   rawSpec: '',
+1393 silly mapToRegistry   spec: 'latest',
+1393 silly mapToRegistry   type: 'tag' }
+1394 silly mapToRegistry uri http://intersinopia:4873/heroku-ci
+1395 verbose addNameVersion registry:http://intersinopia:4873/heroku-ci not in flight; fetching
+1396 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-orgs\1.7.1\package\package.json written
+1397 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\tar-fs\1.16.0\package\package.json written
+1398 silly cache afterAdd netrc-parser@3.1.0
+1399 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\netrc-parser\3.1.0\package\package.json not in flight; writing
+1400 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1401 silly resolveWithNewModule fs-extra@5.0.0 checking installable status
+1402 silly cache add args [ 'fs-extra@5.0.0', null ]
+1403 verbose cache add spec fs-extra@5.0.0
+1404 silly cache add parsed spec Result {
+1404 silly cache add   raw: 'fs-extra@5.0.0',
+1404 silly cache add   scope: null,
+1404 silly cache add   escapedName: 'fs-extra',
+1404 silly cache add   name: 'fs-extra',
+1404 silly cache add   rawSpec: '5.0.0',
+1404 silly cache add   spec: '5.0.0',
+1404 silly cache add   type: 'version' }
+1405 silly addNamed fs-extra@5.0.0
+1406 verbose addNamed "5.0.0" is a plain semver version for fs-extra
+1407 silly mapToRegistry name fs-extra
+1408 silly mapToRegistry using default registry
+1409 silly mapToRegistry registry http://intersinopia:4873/
+1410 silly mapToRegistry data Result {
+1410 silly mapToRegistry   raw: 'fs-extra',
+1410 silly mapToRegistry   scope: null,
+1410 silly mapToRegistry   escapedName: 'fs-extra',
+1410 silly mapToRegistry   name: 'fs-extra',
+1410 silly mapToRegistry   rawSpec: '',
+1410 silly mapToRegistry   spec: 'latest',
+1410 silly mapToRegistry   type: 'tag' }
+1411 silly mapToRegistry uri http://intersinopia:4873/fs-extra
+1412 verbose addNameVersion registry:http://intersinopia:4873/fs-extra not in flight; fetching
+1413 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-ps-exec\2.3.1\package\package.json written
+1414 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-spaces\2.11.0\package\package.json written
+1415 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\http-call\4.0.8\package\package.json written
+1416 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\ts-lodash\4.0.11\package\package.json written
+1417 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\cli-ux\2.0.21\package\package.json written
+1418 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-pg\2.9.0\package\package.json written
+1419 verbose get http://intersinopia:4873/heroku-ci not expired, no request
+1420 silly cache afterAdd semver@5.5.0
+1421 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\semver\5.5.0\package\package.json not in flight; writing
+1422 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1423 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\tslib\1.9.0\package\package.json written
+1424 silly mapToRegistry name heroku-ci
+1425 silly mapToRegistry using default registry
+1426 silly mapToRegistry registry http://intersinopia:4873/
+1427 silly mapToRegistry data Result {
+1427 silly mapToRegistry   raw: 'heroku-ci',
+1427 silly mapToRegistry   scope: null,
+1427 silly mapToRegistry   escapedName: 'heroku-ci',
+1427 silly mapToRegistry   name: 'heroku-ci',
+1427 silly mapToRegistry   rawSpec: '',
+1427 silly mapToRegistry   spec: 'latest',
+1427 silly mapToRegistry   type: 'tag' }
+1428 silly mapToRegistry uri http://intersinopia:4873/heroku-ci
+1429 verbose addRemoteTarball http://intersinopia:4873/heroku-ci/-/heroku-ci-1.9.5.tgz not in flight; adding
+1430 verbose addRemoteTarball [ 'http://intersinopia:4873/heroku-ci/-/heroku-ci-1.9.5.tgz',
+1430 verbose addRemoteTarball   '87d3c6589857c1a25517943405e2af58c318d697' ]
+1431 verbose get http://intersinopia:4873/fs-extra not expired, no request
+1432 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-webhooks\1.1.0\package\package.json written
+1433 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\netrc-parser\3.1.0\package\package.json written
+1434 silly cache afterAdd execa@0.9.0
+1435 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\execa\0.9.0\package\package.json not in flight; writing
+1436 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1437 info retry fetch attempt 1 at 15:00:00
+1438 info attempt registry request try #1 at 15:00:00
+1439 http fetch GET http://intersinopia:4873/heroku-ci/-/heroku-ci-1.9.5.tgz
+1440 verbose request using bearer token for auth
+1441 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\semver\5.5.0\package\package.json written
+1442 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\execa\0.9.0\package\package.json written
+1443 http fetch 200 http://intersinopia:4873/heroku-ci/-/heroku-ci-1.9.5.tgz
+1444 silly cache afterAdd fs-extra@5.0.0
+1445 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\fs-extra\5.0.0\package\package.json not in flight; writing
+1446 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1447 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\fs-extra\5.0.0\package\package.json written
+1448 silly fetchAndShaCheck shasum 87d3c6589857c1a25517943405e2af58c318d697
+1449 verbose addTmpTarball C:\Users\fdm74345\AppData\Local\Temp\npm-13348-e40d7eba\intersinopia_4873\heroku-ci\-\heroku-ci-1.9.5.tgz not in flight; adding
+1450 verbose addTmpTarball already have metadata; skipping unpack for heroku-ci@1.9.5
+1451 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1452 silly cache afterAdd heroku-ci@1.9.5
+1453 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-ci\1.9.5\package\package.json not in flight; writing
+1454 verbose correctMkdir C:\Users\fdm74345\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1455 verbose afterAdd C:\Users\fdm74345\AppData\Roaming\npm-cache\heroku-ci\1.9.5\package\package.json written
+1456 silly rollbackFailedOptional Starting
+1457 silly rollbackFailedOptional Finishing
+1458 silly runTopLevelLifecycles Finishing
+1459 silly install printInstalled
+1460 verbose stack Error: no such package available : @cli-engine/command
+1460 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+1460 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+1460 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+1460 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+1460 verbose stack     at emitTwo (events.js:106:13)
+1460 verbose stack     at Request.emit (events.js:191:7)
+1460 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+1460 verbose stack     at emitOne (events.js:96:13)
+1460 verbose stack     at Request.emit (events.js:188:7)
+1460 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+1461 verbose statusCode 404
+1462 verbose pkgid @cli-engine/command
+1463 verbose cwd C:\Users\fdm74345\Downloads\Projects\smart-brain-api-express-postgresql\smart-brain-api-express-postgresql
+1464 error Windows_NT 6.1.7601
+1465 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "heroku-cli"
+1466 error node v6.10.3
+1467 error npm  v3.10.10
+1468 error code E404
+1469 error 404 no such package available : @cli-engine/command
+1470 error 404
+1471 error 404 '@cli-engine/command' is not in the npm registry.
+1472 error 404 You should bug the author to publish it (or use the name yourself!)
+1473 error 404 It was specified as a dependency of 'heroku-cli'
+1474 error 404 Note that you can also install from a
+1475 error 404 tarball, folder, http url, or git url.
+1476 verbose exit [ 1, true ]
