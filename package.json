@@ -10,9 +10,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "knex": "^0.14.4",
-    "pg": "^7.4.1"
-  },
-  "devDependencies": {
+    "pg": "^7.4.1",
     "nodemon": "^1.17.1"
   },
   "scripts": {
